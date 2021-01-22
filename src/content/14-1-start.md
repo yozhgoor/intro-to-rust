@@ -1,8 +1,12 @@
 # Commencer avec Rust
 
-D'abord, téléchargez Rust sur votre ordinateur. Pour ça, veuillez suivre les instructions que vous pouvez trouver sur la page getting started du site officiel de Rust.
+D'abord, téléchargez Rust sur votre ordinateur. Pour ça, veuillez suivre les instructions que vous pouvez trouver sur la page [getting started]() du site officiel de Rust.
 
 Là, vous trouverez également les instructions pour intégrer le langage à votre éditeur favori pour une meilleure expérience.
+
+// add an example of Rust install on Linux
+
+## Débuter un projet
 
 Pour commencer un nouveau projet, allez à l'endroit où vous voulez créer votre projet (comme un dossier `/repos` par exemple) et lancez simplement `cargo new <project-name>`. Dans mon cas, j'ai gardé le nom du tutoriel de base et utilisé "todo-cli". J'ai donc lancé:
 
@@ -31,13 +35,15 @@ $ cargo run
 Hello world!
 ```
 
+> *Note:* Vous pouvez voir un bouton "play" en haut à droite de l'encart contenant le code Rust `Hello world!`, il vous permet de tester le code directement sur cette page, c'est comme si vous lanciez `cargo run` depuis votre terminal.
+
 ## Comment lire les arguments
 
 Notre but est d'avoir un [CLI](./content/13-cli.md) qui accepte deux arguments: le premier sera l'action, et le second sera l'item.
 
 Nous allons commencer par lire les arguments saisis par l'utilisateur et les afficher. Remplacez le contenu de `main` avec ce qui suit:
 
-```rust
+```rust, ignore
 fn main() {
     let action = std::env::args().nth(1).expect("Please specify an action");
     let item = std::env::args().nth(2).expect("Please specify an item");
@@ -45,6 +51,7 @@ fn main() {
     println!("{:?}, {:?})", action, item);
 }
 ```
+
 Commençons par digérer toutes ses informations, prenons cette ligne:
 
 `let action = std::env::args().nth(1).expect("Please specify an action")`

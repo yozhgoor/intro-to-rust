@@ -1,0 +1,74 @@
+// this file store external 
+
+# 1
+
+# 2
+
+# 3
+
+# 4
+
+# 5
+
+# 6
+
+## 6-1
+
+## 6-2
+
+## 6-3
+
+# 7
+
+# 8
+
+# 9
+
+# 10
+
+# 11
+
+# 12
+
+# 13
+
+# 14
+
+ - [Claudio Restifo]()
+ - [FreeCodeCamp]()
+ - [repository GitHub]() // (todo cli)
+ - [Struct]()
+ - [Impl]()
+ - [Match pattern](https://doc.rust-lang.org/book/ch06-02-match.html#patterns-that-bind-to-values)
+ - [Itérateurs]()
+ - [closures]()
+
+## 14-1
+
+- [getting started]() // (Rust official website)
+- [macro](https://doc.rust-lang.org/book/ch19-06-macros.html)
+- [hello world!](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)
+- [`let action =`](https://doc.rust-lang.org/std/keyword.let.html) // about let keyword
+- [`std::env::args()`](https://doc.rust-lang.org/std/env/fn.args.html)
+- [bibliothèque standard de Rust](https://doc.rust-lang.org/std/)
+- [`.nth(1)`](https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.nth) // about std iterator
+- [`expect("Please specify an action")`](https://doc.rust-lang.org/std/option/enum.Option.html#method.expect) // about error handling
+- [enum](https://doc.rust-lang.org/stable/std/keyword.enum.html)
+- [`Option`](https://doc.rust-lang.org/std/option/enum.Option.html)
+
+
+
+
+## 14-2
+
+## 14-3
+
+## 14-4
+
+## 14-5
+
+## 14-6
+
+## 14-7
+
+# 15

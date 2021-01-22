@@ -56,9 +56,6 @@
 - [enum](https://doc.rust-lang.org/stable/std/keyword.enum.html)
 - [`Option`](https://doc.rust-lang.org/std/option/enum.Option.html)
 
-
-
-
 ## 14-2
 
 ## 14-3

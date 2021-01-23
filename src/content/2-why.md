@@ -1,16 +1,14 @@
 # Pourquoi Rust ?
 
-La réponse courte est que Rust résout les problèmes présents dans de nombreux autres langages, offrant un pas en avant solide avec un nombre limité d'inconvénients.
+Rust est un langage de programmation [multi-paradigme](), orienté performances et sécurité. Il a été créé par Graydon Hoare en 2006 à [Mozilla]() Research.
 
-Je vais vous montrer un échantillon de ce que Rust propose aux utilisateurs d'autres langages de programmation et à quoi ressemble l'écosystème actuel. Cependant, tout n'est pas rose à Rust-land, alors je parlerais aussi des inconvénients
+Rust est un langage plutôt jeune, Rust 1.0, la première version stable est sortie le 15 mai 2015. Il est très apprécié car il semblerait qu'il puisse résoudre les problèmes présents dans de nombreux autres langages, offrant un pas en avant solide avec un nombre limité d'inconvénients.
 
-Depuis sa première version open-source en 2015, le langage de programmation Rust a gagné beaucoup d'attention de la communauté. il a également été désigné "langage de programmation le plus aimé" par le sondage développeur de StackOverflow chaque année depuis 2016.
+le langage de programmation Rust a gagné beaucoup d'attention de la communauté. il a également été désigné "langage de programmation le plus aimé" par le sondage développeur de StackOverflow chaque année depuis 2016. Ce qui indique que beaucoup de ceux qui ont l'occasion d'utiliser Rust en sont tombés amoureux.
 
-Rust est le [langage le plus apprécié de Stack Overflow pendant quatre années consécutives](https://insights.stackoverflow.com/survey/2019), ce qui indique que beaucoup de ceux qui ont l'occasion d'utiliser Rust en sont tombés amoureux. Cependant, environ 97% des répondants à l'enquête qui n'ont pas utilisé Rust peuvent se demander: "quel est le truc de Rust?"
+Pourtant il a toujours la réputation d'être le langage de programmation des geeks alpha.
 
-Rust est l'un des langage les plus en vogue en ce moment. C'est le [langage de programmation le plus aimé](https://stackoverflow.blog/2020/01/20/what-is-rust-and-why-is-it-so-popular/) selon StackOverflow depuis 4 ans maintenant. Pourtant il a toujours la réputation d'être le langage de programmation des geeks alpha.
-
-Rust a été conçu par Mozilla
+------------
 
 Selon [certaines estimations](https://s3-eu-west-1.amazonaws.com/vm-blog/uploads/2020/04/DE18-SoN-Digital-.pdf), il y aurait 600,000 développeurs Rust autour du globe, ce qui est un nombre plutôt significatif. Mais ça reste peu par rapport aux dizaines de millions de développeurs Java, Python ou JavaScript.
 

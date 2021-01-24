@@ -12,4 +12,4 @@ cargo check va tenter de compiler votre code sans le lancer: c'est une commande 
 Rust est livré avec à la fois une suite de test intégrés: cargo test.
 
 Cargo doc est un outil pour générer de la documentation
-Des [lints](https://en.wikipedia.org/wiki/Lint_(software)) supplémentaires sont disponible depuis [Clippy](https://github.com/rust-lang/rust-clippy) et le formatage idiomatique automatique est fourni par [rustfmt](https://github.com/rust-lang/rustfmt). Le support IDE est sain et de plus en plus performant chaque jour.
+Des [lints](https://en.wikipedia.org/wiki/Lint_(software)) supplémentaires sont disponible depuis [Clippy](https://github.com/rust-lang/rust-clippy) et le formatage idiomatique automatique est fourni par [rustfmt](https://github.com/rust-lang/rustfmt). Le support IDE est sain et de plus en plus performant chaque jour grâce notamment à des projets comme [rust-analyzer]() ou [intellij Rust plugin]()

@@ -8,6 +8,8 @@ Avant de finir, Voici quelques ressources additionnelles pour vous aider à avan
 
 Le site web officiel de Rust, où toutes les informations sont disponibles.
 
+
+
 // 3 physical book
 
 Udemy
@@ -15,3 +17,15 @@ Udemy
 video - Introduction to rust de Ryan Levick
 
 Hors ligne, Rust a plusieurs conférences autour du globe comme [RustConf](), [Rust Belt Rust](), [RustFest](), [Rust Latam](), [RustConf Asia](), et ce n'est évidemment pas tout!
+
+[Tour of Rust](https://tourofrust.com/), un tutoriel interactif sur les bases de Rust
+
+[The Rust Programming language]()
+
+[Exercism Rust track](https://exercism.io/), si vous voulez découvrir le langage et sa syntaxe par la pratique, c'est une bonne option
+
+[Rust by example](https://doc.rust-lang.org/stable/rust-by-example/). Une collection d'exemple de code idiomatique Rust.
+
+[Rust cheat sheet](https://cheats.rs/), si vous voulez jeter un oeil aux concepts les plus importants de Rust, ceci est pour vous
+
+[Rustling](https://github.com/rust-lang/rustlings), Une collection d'exercices sur Rust, qui vous permet de combattre le compilateur dans un environnement controlé

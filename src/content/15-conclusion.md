@@ -16,8 +16,6 @@ Udemy
 
 video - Introduction to rust de Ryan Levick
 
-Hors ligne, Rust a plusieurs conférences autour du globe comme [RustConf](), [Rust Belt Rust](), [RustFest](), [Rust Latam](), [RustConf Asia](), et ce n'est évidemment pas tout!
-
 [Tour of Rust](https://tourofrust.com/), un tutoriel interactif sur les bases de Rust
 
 [The Rust Programming language]()

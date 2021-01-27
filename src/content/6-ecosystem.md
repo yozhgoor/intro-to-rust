@@ -6,6 +6,14 @@ Plusieurs chaînes d'outils Rust simultanées peuvent être installés et géré
 
 De plus, Rust cherche à créer un certain standard pour permettre à tout le monde de travailler sur les mêmes bases. Vous pourrez voir dans les chapitres suivants que Rust propose plusieurs outils de développement, un gestionnaire de paquet et possède un système de documentation bien à lui.
 
-Au dela des points techniques, Rust possède une communauté dynamique et accueillante. Il existe plusieurs moyens officiels et non officiels permettant aux gens d'obtenir de l'aide, tels que  le [forum des utilisateurs](), le [subreddit]() Rust et, bien évidemment, les questions et Réponses sur [StackOverflow]() et son [forum](). Rust a un code de conduite appliqué par une [équipe de modération]() impressionnante pour s'assurer que les espaces officiels sont accueillants, et la plupart des espaces non officiels observent également quelque chose de similaire.
+Au dela des points techniques, Rust possède une communauté dynamique et accueillante. Il existe plusieurs moyens officiels et non officiels permettant aux gens d'obtenir de l'aide, tels que:
 
-Hors ligne, Rust a plusieurs conférences autour du globe comme [RustConf](), [Rust Belt Rust](), [RustFest](), [Rust Latam](), [RustConf Asia](), et ce n'est évidemment pas tout!
+* le [forum des utilisateurs]()
+* Le [discord Rust]() et le [community server]()
+* Le [Rust lang Slack]()
+* le [subreddit]() Rust
+* les questions et Réponses sur [StackOverflow]() et son [forum]().
+
+Rust a un code de conduite appliqué par une [équipe de modération]() impressionnante pour s'assurer que les espaces officiels sont accueillants, et la plupart des espaces non officiels observent également quelque chose de similaire.
+
+Hors ligne, Rust a plusieurs conférences autour du globe comme [RustConf](https://rustconf.com/), [Rust Belt Rust](), [RustFest](), [Rust Latam](), [RustConf Asia](), [Rusty Days](), [RustLab](), etc...

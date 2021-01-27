@@ -7,3 +7,5 @@ En fait, l'un des premiers slogans de Rust est "fearless concurrency" (concurren
 L'enquête montre que 4 des 10 plus importantes crates Rust, [tokio](), [async](), [futures]() et [hyper]() sont des framework pour des applications multi-thread asynchrone.
 
 A titre d'exemple, Rust a des [futures asynchrones]() depuis plus de trois ans, mais le support stable [async/await]() dans le langage lui-même n'a que quelques mois.
+
+Rust fournis un [book offciel](https://rust-lang.github.io/async-book/) concernant la programmation asynchrone

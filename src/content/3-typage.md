@@ -2,9 +2,11 @@
 
 Rust est un langage [typé statiquement](), cela veut dire que le type de la variable doit être connu au moment de la compilation. Pour certains langages, cela veut dire que le programmeur doit spécifier de quel type est chaque variable(comme [Java](), C ou C++), Rust et d'autres langages utilise une forme d'[inférence de type](), ils sont capable de déduire le type d'une variable et le programmeur ne devra la spécifier que si le compilateur n'est pas capable de l'inférer pour nous (comme [Haskell](), [Scala]() ou [Kotlin]()).
 
-Le principal avantage ici est que tout type de vérification peut être faite par le compilateur, ce qui implique que beaucoup de bugs peuvent être détecté à une étape avancé du développement.
+
 
 La division entre les programmeurs qui préférent les système de type dynamique par rapport aux systèmes statiques dureront problablement encore des décénnies, mais il est difficile de discuter des avantages des types statiques. Il vous suffit de regarder la montée en puissance de langages tels que TypeScript ou de fonctionnalités telles que les indices de type Python. Les langages à typage statique permettent des contraintes vérifiées par le compilateur sur les données et leur comportement, ce qui réduit la surcharge cognitive et les malentendus.
+
+Le principal avantage ici est que tout type de vérification peut être faite par le compilateur, ce qui implique que beaucoup de bugs peuvent être détecté à une étape avancé du développement.
 
 Cela ne veut pas dire que tous les systèmes de type statique sont équivalent. De nombreux langages à typage statique ont une grande astérisque à côté d'eux: ils permettent le concept de `NULL`. 
 

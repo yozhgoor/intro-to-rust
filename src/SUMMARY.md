@@ -12,12 +12,6 @@
 
 - [L'écosystème de Rust](./content/6-ecosystem.md)
 
-	- [Outils](./content/6-1-tools.md)
-
-	- [Crates](./content/6-2-crates.md)
-
-	- [Documentation](./content/6-3-doc.md)
-
 # Utilisation de Rust
 
 - [Programmation système](./content/7-system.md)
@@ -30,28 +24,30 @@
 
 - [WebAssembly](./content/11-web.md)
 
-- [Embedded](./content/12-embedded.md)
+- [Programmation embarquée](./content/12-embedded.md)
 
-- [Command Line Interface](./content/13-cli.md)
+- [Programme en ligne de commande](./content/13-cli.md)
+
+- [Développement de jeu vidéo](./content/14-games.md)
 
 # Projet pratique
 
-- [Créer un programme en ligne de commande](./content/14-create.md)
+- [Créer un programme en ligne de commande](./content/15-create.md)
 
-	- [Commencer avec Rust](./content/14-1-start.md)
+	- [Commencer avec Rust](./content/15-1-start.md)
 
-	- [Insérer et sauvegarder des données](./content/14-2-insert.md)
+	- [Insérer et sauvegarder des données](./content/15-2-insert.md)
 
-	- [Aperçu du concept d'Ownership](./content/14-3-ownership.md)
+	- [Aperçu du concept d'Ownership](./content/15-3-ownership.md)
 
-	- [Lire depuis un fichier](./content/14-4-read.md)
+	- [Lire depuis un fichier](./content/15-4-read.md)
 
-	- [Mettre à jour une valeur](./content/14-5-update.md)
+	- [Mettre à jour une valeur](./content/15-5-update.md)
 
-	- [Tentons de lancer le programme](./content/14-6-run.md)
+	- [Tentons de lancer le programme](./content/15-6-run.md)
 
-	- [Utilisation d'une crate externe](./content/14-7-use.md)
+	- [Utilisation d'une crate externe](./content/15-7-use.md)
 
 # Conclusion
 
-- [Conclusion](./content/15-conclusion.md)
+- [Conclusion](./content/16-conclusion.md)

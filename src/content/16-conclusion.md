@@ -8,8 +8,6 @@ Avant de finir, Voici quelques ressources additionnelles pour vous aider à avan
 
 Le site web officiel de Rust, où toutes les informations sont disponibles.
 
-
-
 // 3 physical book
 
 Udemy

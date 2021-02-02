@@ -13,19 +13,19 @@ Avant de finir, Voici quelques ressources additionnelles pour vous aider à avan
   * [Rust Cheat Sheet](https://cheats.rs/), Cheat sheet concernant Rust et son utilisation
 
 * Exercices
-  * [Tour of Rust](https://tourofrust.com/), Guide pas à pas concernant les fonctionnalités de Rust
-  * [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/), Une collection d'exemple exécutable qui illustreÒ
-  * [Rustlings](https://github.com/rust-lang/rustlings)
-  * [Exercism Rust Track](https://exercism.io/)
+  * [Tour of Rust](https://tourofrust.com/), Guide pas à pas concernant les fonctionnalités de Rust.
+  * [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/), Une collection d'exemple exécutable qui illustre certains concepts de Rust.
+  * [Rustlings](https://github.com/rust-lang/rustlings), Des petits exercices pour vous permettre de lire et écrire du code Rust.
+  * [Exercism Rust Track](https://exercism.io/), Exercism vous permet de vous entrainer et de trouver un mentor.
 
 * Livres
-  * [Rust in Action](http://www.rustinaction.com/)
-  * [Beginning Rust - From Novice to Professional](https://www.apress.com/gp/book/9781484234679)
-  * [Programming Rust](https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/)
+  * [Rust in Action](http://www.rustinaction.com/) par Tim McNamara, Introduction à Rust en explorant des techniques et concept de programmation système.
+  * [Beginning Rust - From Novice to Professional](https://www.apress.com/gp/book/9781484234679) par Carlo Milanesi, introduction pas à pas pour Rust.
+  * [Programming Rust](https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/) par Jim Blandy, Jason Orendorff et Leonora F.S. Tindall, Guide pratique pour comprendre Rust.
 
 * Ebook
-  * [Rust Book](https://doc.rust-lang.org/stable/book/)
-  * [Rust Essentials](https://allitbooks.net/programming/1931-rust-essentials.html)
+  * [Rust Book](https://doc.rust-lang.org/stable/book/), Livre officiel du Rust Programming Language
+  * [Rust Essentials](https://allitbooks.net/programming/1931-rust-essentials.html), Ce livre vous montre ou et comment utiliser Rust.
   * [Begin Rust](https://www.beginrust.com/)
 
 * Vidéo

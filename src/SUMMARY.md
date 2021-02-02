@@ -52,4 +52,8 @@
 
 # Conclusion
 
+<<<<<<< HEAD
 - [Conclusion](./content/17-conclusion.md)
+=======
+- [Conclusion](./content/15-conclusion.md)
+>>>>>>> main

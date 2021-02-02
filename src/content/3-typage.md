@@ -8,7 +8,7 @@ La division entre les programmeurs qui préférent les système de type dynamiqu
 
 Le principal avantage ici est que tout type de vérification peut être faite par le compilateur, ce qui implique que beaucoup de bugs peuvent être détecté à une étape avancé du développement.
 
-Cela ne veut pas dire que tous les systèmes de type statique sont équivalent. De nombreux langages à typage statique ont une grande astérisque à côté d'eux: ils permettent le concept de `NULL`. 
+Cela ne veut pas dire que tous les systèmes de type statique sont équivalent. De nombreux langages à typage statique ont une grande astérisque à côté d'eux: ils permettent le concept de `NULL`.
 
 Cela signifie que toute valeur peut être ce qu'elle dit ou rien, créant effectivement un [deuxième type possible pour chaque type](https://franklinchen.com/blog/2012/09/06/my-pittsburgh-ruby-talk-nil/). Comme Haskell et quelques autre langages de programmation moderne, Rust encode cette possibilité en utilisant un *type optionnel*, et le compilateur vous demande de gérer le cas `None`. Cela empêche les occurrences du redouté erreur d'exécution `TypeError: Cannot read property 'foo' of null` (ou l'équivalent du langage), au lieu de le promouvoir comme une erreur de compilation que vous pouvez résoudre avant qu'un utilisateur ne le voie.
 
@@ -17,17 +17,26 @@ Voici en exemple une fonction pour saluer quelqu'un en fonction de si l'on conna
 ```
 fn greet_user(name: Option<String>) {
 	match name {
+<<<<<<< HEAD
 		Some(name) => println!("Bonjour, {}" name),
 		None => println!("Bienvenue à vous, étranger!"),
+=======
+		Some(name) => println!("Hello there, {}" name),
+		None => println!("Well howdy, stranger!"),
+>>>>>>> main
 	}
 }
 ```
 
+<<<<<<< HEAD
 Le typage statique de Rust fait de son mieux pour sortir du chemin du programmeur tout en encourageant la maintenabilité à long terme. Certains langages à typage statique imposent une lourde charge au programmeur, l'obligeant à répéter le type d'une variable plusieurs fois, ce qui entrave la lisibilité et la refactorisation.
 
 D'autres langages à typage statique permettent l'inférence de type de programme entier. Bien que pratique lors du développement initial, cela réduit la capacité du compilateur à fournir des informations d'erreur utiles lorsque les types ne correspondent plus.
 
 Rust apprends de ces deux styles et exige que les éléments de premier niveau tels que les arguments de fonction et les constantes aient des types explicites, tout en permettant l'inférence de type à l'intérieur du corps de la fonction. Dans cet exemple, le compilateur de Rust infére le type de `twice`, `2`, et `1` car le paramètre `val` et le type de retour sont déclaré comme entiers signé sur 32 bits
+=======
+Le typage statique de Rust fait de son mieux pour sortir du chemin du programmeur tout en encourageant la maintenabilité à long terme. Certains langages à typage statique imposent une lourde charge au programmeur, l'obligeant à répéter le type d'une variable plusieurs fois, ce qui entrave la lisibilité et la refactorisation. D'autres langages à typage statique permettent l'inférence de type de programme entier. Bien que pratique lors du développement initial, cela réduit la capacité du compilateur à fournir des informations d'erreur utiles lorsque les types ne correspondent plus. Rust apprends de ces deux styles et exige que les éléments de premier niveau tels que les arguments de fonction et les constantes aient des types explicites, tout en permettant l'inférence de type à l'intérieur du corps de la fonction. Dans cet exemple, le compilateur de Rust infére le type de `twice`, `2`, et `1` car le paramètre `val` et le type de retour sont déclaré comme entiers signé sur 32 bits
+>>>>>>> main
 
 ```
 fn simple_math(val: i32) -> i32 {

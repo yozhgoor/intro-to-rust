@@ -1,9 +1,24 @@
 # Programmation système
 
+<<<<<<< HEAD
 il est considéré comme étant un langage de programmation système (comme C ou C++), Un des plus grand bénéfice de l'utilisation d'un langage de programmation systéme est son habilité à contrôler des détails bas-niveau. Pour beaucoup de gens, Rust est largement considéré comme une alternative aux autres langages de programmation de systèmes, En tant que langage de niveau système destiné à remplacer C et C++, la plupart des gens supposent que Rust serait utilisé dans la programmation d'infrastructure, comme les systèmes d'exploitation, les bibliothèques natives et les plate-formes d'exécution.
 
 Les langages de programmation systèmes s'attendent implicitement à ce qu'ils existent pour toujours. Bien que certains développements modernes ne nécessitent pas autant de longévité, de nombreuses entreprises veulent savoir que leur base de code fondamentale sera utilisable dans un avenir prévisible. Rust reconnaît cela et a pris des décisions de conception consciente concertant la [compatibilité ascendante](https://en.wikipedia.org/wiki/Backward_compatibility) et la stabilité. C'est un langage conçu pour les 40 prochaines années.
 
+=======
+il est considéré comme étant un langage de programmation système (comme C ou C++),
+
+Les langages de programmation systèmes s'attendent implicitement à ce qu'ils existent pour toujours. Bien que certains développements modernes ne nécessitent pas autant de longévité, de nombreuses entreprises veulent savoir que leur base de code fondamentale sera utilisable dans un avenir prévisible. Rust reconnaît cela et a pris des décisions de conception consciente concertant la [compatibilité ascendante](https://en.wikipedia.org/wiki/Backward_compatibility) et la stabilité. C'est un langage conçu pour les 40 prochaines années.
+
+L'ownership est la fonctionnalité la plus unique en Rust. elle permet aux programmeurs Rust d'écrire des programmes sans devoir allouer manuellement la mémoire (comme en C/C++)
+
+En tant que langage de niveau système destiné à remplacer C et C++, la plupart des gens supposent que Rust serait utilisé dans la programmation d'infrastructure, comme les systèmes d'exploitation, les bibliothèques natives et les plate-formes d'exécution.
+
+Un des plus grand bénéfice de l'utilisation d'un langage de programmation systéme est son habilité à contrôler des détails bas-niveau.
+
+Pour beaucoup de gens, Rust est largement considéré comme une alternative aux autres langages de programmation de systèmes, comme C ou C++.
+
+>>>>>>> main
 Le plus grand avantage que Rust peut offrir par rapport à ces langages est le *borrow checker* (Vérificateur d'emprunt en français). C'est la partie du compilateur chargée de s'assurer que les références ne survivent pas aux données auxquelles elles se réfèrent, et cela aide à éliminer des classes entières de bugs causées par l'insécurité de la mémoire.
 
 Contrairement à de nombreux langages de programmation de systèmes existants, Rust ne vous oblige pas à passer tout votre temps dans les moindres détails. Rust s'efforce d'avoir autant d'abstractions à coût nul que possible, des abstractions aussi performantes que le code manuscrit équivalent. Dans cet exemple, nous montrons commment les itérateurs, une abstraction principale de Rust, peuvent être utilisés pour créer succintement un vecteur contenant les dix premiers nombres carrés.

@@ -17,26 +17,17 @@ Voici en exemple une fonction pour saluer quelqu'un en fonction de si l'on conna
 ```
 fn greet_user(name: Option<String>) {
 	match name {
-<<<<<<< HEAD
 		Some(name) => println!("Bonjour, {}" name),
 		None => println!("Bienvenue à vous, étranger!"),
-=======
-		Some(name) => println!("Hello there, {}" name),
-		None => println!("Well howdy, stranger!"),
->>>>>>> main
 	}
 }
 ```
 
-<<<<<<< HEAD
 Le typage statique de Rust fait de son mieux pour sortir du chemin du programmeur tout en encourageant la maintenabilité à long terme. Certains langages à typage statique imposent une lourde charge au programmeur, l'obligeant à répéter le type d'une variable plusieurs fois, ce qui entrave la lisibilité et la refactorisation.
 
 D'autres langages à typage statique permettent l'inférence de type de programme entier. Bien que pratique lors du développement initial, cela réduit la capacité du compilateur à fournir des informations d'erreur utiles lorsque les types ne correspondent plus.
 
 Rust apprends de ces deux styles et exige que les éléments de premier niveau tels que les arguments de fonction et les constantes aient des types explicites, tout en permettant l'inférence de type à l'intérieur du corps de la fonction. Dans cet exemple, le compilateur de Rust infére le type de `twice`, `2`, et `1` car le paramètre `val` et le type de retour sont déclaré comme entiers signé sur 32 bits
-=======
-Le typage statique de Rust fait de son mieux pour sortir du chemin du programmeur tout en encourageant la maintenabilité à long terme. Certains langages à typage statique imposent une lourde charge au programmeur, l'obligeant à répéter le type d'une variable plusieurs fois, ce qui entrave la lisibilité et la refactorisation. D'autres langages à typage statique permettent l'inférence de type de programme entier. Bien que pratique lors du développement initial, cela réduit la capacité du compilateur à fournir des informations d'erreur utiles lorsque les types ne correspondent plus. Rust apprends de ces deux styles et exige que les éléments de premier niveau tels que les arguments de fonction et les constantes aient des types explicites, tout en permettant l'inférence de type à l'intérieur du corps de la fonction. Dans cet exemple, le compilateur de Rust infére le type de `twice`, `2`, et `1` car le paramètre `val` et le type de retour sont déclaré comme entiers signé sur 32 bits
->>>>>>> main
 
 ```
 fn simple_math(val: i32) -> i32 {

@@ -9,12 +9,12 @@ n'hésitez pas à me contacter sur mon compte [Twitter](https://twitter.com/yozh
 Avant de finir, Voici quelques ressources additionnelles pour vous aider à avancer dans votre aventure Rust:
 
 * A propos de Rust
-  * [The Rust Programming Language]()
-  * [Rust Cheat Sheet](https://cheats.rs/)
+  * [The Rust Programming Language](), le site web officiel du langage de programmation Rust
+  * [Rust Cheat Sheet](https://cheats.rs/), Cheat sheet concernant Rust et son utilisation
 
 * Exercices
-  * [Tour of Rust](https://tourofrust.com/)
-  * [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/)
+  * [Tour of Rust](https://tourofrust.com/), Guide pas à pas concernant les fonctionnalités de Rust
+  * [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/), Une collection d'exemple exécutable qui illustreÒ
   * [Rustlings](https://github.com/rust-lang/rustlings)
   * [Exercism Rust Track](https://exercism.io/)
 

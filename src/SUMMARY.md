@@ -16,38 +16,40 @@
 
 - [Programmation système](./content/7-system.md)
 
-- [Programmation asynchrone](./content/8-async.md)
+- [Programmation orientée objet](./content/8-object.md)
 
-- [Inter-opérabilité entre langages](./content/9-inter.md)
+- [Programmation asynchrone](./content/9-async.md)
 
-- [Blockchain](./content/10-blockchain.md)
+- [Inter-opérabilité entre langages](./content/10-inter.md)
 
-- [WebAssembly](./content/11-web.md)
+- [Blockchain](./content/11-blockchain.md)
 
-- [Programmation embarquée](./content/12-embedded.md)
+- [WebAssembly](./content/12-web.md)
 
-- [Programme en ligne de commande](./content/13-cli.md)
+- [Programmation embarquée](./content/13-embedded.md)
 
-- [Développement de jeu vidéo](./content/14-games.md)
+- [Programme en ligne de commande](./content/14-cli.md)
+
+- [Développement de jeu vidéo](./content/15-games.md)
 
 # Projet pratique
 
-- [Créer un programme en ligne de commande](./content/15-create.md)
+- [Créer un programme en ligne de commande](./content/16-create.md)
 
-	- [Commencer avec Rust](./content/15-1-start.md)
+	- [Commencer avec Rust](./content/16-1-start.md)
 
-	- [Insérer et sauvegarder des données](./content/15-2-insert.md)
+	- [Insérer et sauvegarder des données](./content/16-2-insert.md)
 
-	- [Aperçu du concept d'Ownership](./content/15-3-ownership.md)
+	- [Aperçu du concept d'Ownership](./content/16-3-ownership.md)
 
-	- [Lire depuis un fichier](./content/15-4-read.md)
+	- [Lire depuis un fichier](./content/16-4-read.md)
 
-	- [Mettre à jour une valeur](./content/15-5-update.md)
+	- [Mettre à jour une valeur](./content/16-5-update.md)
 
-	- [Tentons de lancer le programme](./content/15-6-run.md)
+	- [Tentons de lancer le programme](./content/16-6-run.md)
 
-	- [Utilisation d'une crate externe](./content/15-7-use.md)
+	- [Utilisation d'une crate externe](./content/16-7-use.md)
 
 # Conclusion
 
-- [Conclusion](./content/16-conclusion.md)
+- [Conclusion](./content/17-conclusion.md)

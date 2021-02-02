@@ -6,6 +6,15 @@ Pour certains langages, cela veut dire que le programmeur doit spécifier de que
 
 Tandis que Rust et d'autres langages utilisent une forme d'[inférence de type](https://en.wikipedia.org/wiki/Type_inference), ils sont capable de déduire le type d'une variable et le programmeur ne devra la spécifier que si le compilateur n'est pas capable de l'inférer pour nous (comme [Haskell](https://en.wikipedia.org/wiki/Haskell_(programming_language)), [Scala](https://en.wikipedia.org/wiki/Scala_(programming_language)) ou [Kotlin](https://en.wikipedia.org/wiki/Kotlin_(programming_language))). Certains langages à typage statique permettent l'inférence de type de programme entier. Bien que pratique lors du développement initial, cela réduit la capacité du compilateur à fournir des informations d'erreur utiles lorsque les types ne correspondent plus.
 
+Dans cet exemple, le compilateur de Rust infére le type de `twice`, `2`, et `1` car le paramètre `val` et le type de retour sont déclaré comme entiers signé sur 32 bits
+
+```rust, ignore
+fn simple_math(val: i32) -> i32 {
+	let twice = val * 2;
+	twice - 1
+}
+```
+
 Rust apprends de ces deux styles et exige que les éléments de premier niveau tels que les arguments de fonction et les constantes aient des types explicites, tout en permettant l'inférence de type à l'intérieur du corps de la fonction. Il fait de son mieux pour sortir du chemin du programmeur tout en encourageant la maintenabilité à long terme
 
 Un langage typé dynamiquement doit connaitre le type des variables au moment de l'exécution. Cela veut dire que le programmeur peut écrire un peu plus vite car il n'a pas à spécifier le type à chaque fois. [Perl](https://www.perl.org/), [Ruby](https://www.ruby-lang.org/en/) ou [Python](https://www.python.org/) sont des langages typé dynamiquement.
@@ -39,12 +48,3 @@ fn greet_user(name: Option<String>) {
 }
 ```
 > *Note*: n'hésitez pas à tester le code lorsque vous voyez un bouton play dans le bloc de code. Dans ce cas, cela vous permettra de voir l'erreur renvoyé par le compilateur.
-
-Dans cet exemple, le compilateur de Rust infére le type de `twice`, `2`, et `1` car le paramètre `val` et le type de retour sont déclaré comme entiers signé sur 32 bits
-
-```rust, ignore
-fn simple_math(val: i32) -> i32 {
-	let twice = val * 2;
-	twice - 1
-}
-```

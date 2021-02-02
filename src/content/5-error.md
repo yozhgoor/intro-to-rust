@@ -2,7 +2,7 @@
 
 Vu que Rust se veut fiable, il se doit de pouvoir gérer les situations où quelque chose ne se passerait pas comme prévu. Rust place les erreurs en deux catégories majeures, récupérable ou non-récupérable. Dans le cas d'une erreur récupérable, il est raisonnable de signaler le problème et retenter l'opération par exemple. Dans le cas d'une erreur irrécupérable, l'exécution du programme se stoppera, votre programme panique dans les termes Rust.
 
-Ces exigences rendent votre code plus robuste car vous pourrez gérer les erreurs avant que votre code ne soit déployé en production.
+Ces exigences rendent votre code plus robuste car vous pourrez gérer les erreurs avant que votre code ne soit déployé en production. L'une des fonctionnalités les plus uniques et les plus appréciées de Rust est son compilateur agressif qui vous aide à garantir l'exactitude et la sécurité avant même que le programme ne s'exécute. En conséquence, les développeurs Rust peuvent écrire des programmes hautement performants mais sûrs.
 
 Le système de type robuste de Rust et l'accent mis sur la sécurité de la mémoire, le tout appliqué au moment de la compilation, signifient qu'il est extrêmement courant d'obtenir des erreurs lors de la compilation de votre code. Lorsque vous rencontrez une erreur de compilation en Rust, le compilateur vous donne immédiatement une explication de l'erreur, et vous suggère des solutions pour réparer l'erreur basé sur le contexte de votre programme. Les développeurs Rust ont passé beaucoup de temps à améliorer les messages d'erreur pour s'assurer qu'ils sont clairs et exploitables.
 Vous pouvez aussi trouver un [index](https://doc.rust-lang.org/error-index.html) reprenant les différentes erreur de compilation

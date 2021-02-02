@@ -4,7 +4,7 @@ Rust est un des langages de programmation bas-niveau qui n'utilise pas de [garba
 
 C'est une sorte de gestionnaire de mémoire automatique, il va vérifier la mémoire pour libérer l'espace occupé par des données qui ne sont plus utilisé par le programme.
 
-Rust vous donne le choix de stocker des données sur la pile ou le tas et détermine au moment de la compilation quand la mémoire n'est plus nécessaire et peut être nettoyé. Cela permet une utilisation efficace de la mémoire ainsi qu'un accès à la mémoire plus performant en plus du fait de ne pas avoir un garbage collector qui fonctionne en permanence
+L'ownership est la fonctionnalité la plus unique en Rust. elle permet aux programmeurs Rust d'écrire des programmes sans devoir allouer manuellement la mémoire (comme en C/C++). Rust vous donne le choix de stocker des données sur la pile ou le tas et détermine au moment de la compilation quand la mémoire n'est plus nécessaire et peut être nettoyé. Cela permet une utilisation efficace de la mémoire ainsi qu'un accès à la mémoire plus performant en plus du fait de ne pas avoir un garbage collector qui fonctionne en permanence
 
 [Tilde](https://www.tilde.io/), un des premiers utilisateurs de Rust en production dans leur produit [Skylight](https://www.skylight.io/), a découvert qu'il étaient en mesure de [réduire leur utilisation de la mémoire de 5GiB à 50Mib](https://www.rust-lang.org/static/pdfs/Rust-Tilde-Whitepaper.pdf) en réécrivant certains points de terminaison HTTP Java dans un Rust idiomatique. Des économies comme celle-ci s'additionnent rapidement lorsque les fournisseurs de cloud facturent des prix plus élevés pour une mémoire accrue ou des noeuds supplémentaires.
 

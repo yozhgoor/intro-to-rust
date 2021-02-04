@@ -8,8 +8,7 @@ Rust est un langage de programmation bas-niveau (système), [multi-paradigme](ht
 * [Programmation impérative](https://en.wikipedia.org/wiki/Imperative_programming),
 * [Programmation structurée](https://en.wikipedia.org/wiki/Structured_programming).
 
-Il a été créé par Graydon Hoare en 2006 à [Mozilla](https://research.mozilla.org/) Research. Mozilla à commencé à sponsoriser le projet en 2009 et l'a annoncé en 2010.
-C'est donc un langage plutôt jeune, La release pre-alpha est arrivé en Janvier 2012  Rust 1.0, la première version stable est sortie le 15 mai 2015.
+Il a été créé par Graydon Hoare en 2006 en tant que projet personnel pendant qu'il travaillait à [Mozilla](https://research.mozilla.org/) Research. Mozilla à commencé à sponsoriser le projet en 2009 et l'a annoncé en 2010. C'est donc un langage plutôt jeune, La release pre-alpha est arrivé en Janvier 2012  Rust 1.0, la première version stable est sortie le 15 mai 2015. Le projet est aujourd'hui open-source même si il reste financé par Mozilla.
 
 Les trois plus gros avantages qu'on lui connait sont les suivants:
 

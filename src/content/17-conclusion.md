@@ -9,7 +9,7 @@ n'hésitez pas à me contacter sur mon compte [Twitter](https://twitter.com/yozh
 Avant de finir, Voici quelques ressources additionnelles pour vous aider à avancer dans votre aventure Rust:
 
 * A propos de Rust
-  * [The Rust Programming Language](), le site web officiel du langage de programmation Rust
+  * [The Rust Programming Language](https://www.rust-lang.org/), le site web officiel du langage de programmation Rust
   * [Rust Cheat Sheet](https://cheats.rs/), Cheat sheet concernant Rust et son utilisation
 
 * Exercices

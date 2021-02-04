@@ -12,6 +12,7 @@ edition = "2019"
 [output.html]
 git-repository-url = "https://github.com/yozhgoor/todo-cli"
 git-repository-icon = "fa-github"
+default-theme= "navy"
 
 [output.html.search]
 enable = true

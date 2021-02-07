@@ -1,11 +1,13 @@
 # Programmation asynchrone
 
+L'[asynchronie](https://en.wikipedia.org/wiki/Asynchrony_(computer_programming)), dans la programmation, fais référence à l'occurence d'événements indépendants du flux principal du programme et des moyens de gérer ses événements. Cela permet à une unité de travail de s'exécuter séparément du thread d'application principal, puis de lui notifier quand le travail a été exécuté avec succés ou non. Cela permet de meilleures performances et une réactivité accrue.
+
+Certains parties du "Rust asynchrone" sont prise en charge avec les mêmes garanties de stabilité que le "Rust synchrone", d'autres parties sont encore en cours de maturation et changeront avec le temps. Le "Rust asynchrone" est plus difficile à utiliser et peut entrainer une charge de maintenance plus élevée, mais vous offre en retour les meilleurs performances de sa catégorie. Tous cela s'améliore constamment, de sorte que l'impact de ces problèmes s'estompera avec le temps. A titre d'exemple, Rust a des futures asynchrones depuis plus de trois ans, mais le support stable async/await dans le langage lui-même n'a que quelques mois.
+
+Lorsque l'on parle de programmation asynchrone, on entends souvent parler de [concurrence](https://en.wikipedia.org/wiki/Concurrency_(computer_science)). C'est la capacité de différentes parties ou unité d'un programme à être exécutée dans le désordre ou dans un ordre partiel, sans affecter le résultat final et permettre une exécution [parallèle](https://en.wikipedia.org/wiki/Parallel_computing) des unités.
+
 Ces dernières années, deux nouveaux langages de programmation ont gagné en popularité auprès des développeurs. L'un est Rust et l'autre est Go. Une grande partie de leur Succès est leur prise en charge supérieure des modèles de programmation d'accès concurrentiel.
 
 En fait, l'un des premiers slogans de Rust est "fearless concurrency" (concurrence sans peur en français). Il promet la productivité des développeurs dans l'écriture de programmes multi-threads asynchrones optimisés pour les architectures de processeurs multicoeurs d'aujourd'hui. Comme l'a démontre Node.js, une programmation asynchrone simple est cruciale pour le succès d'un langage ou d'un framework côté serveur.
 
-L'enquête montre que 4 des 10 plus importantes crates Rust, [tokio](), [async](), [futures]() et [hyper]() sont des framework pour des applications multi-thread asynchrone.
-
-A titre d'exemple, Rust a des [futures asynchrones]() depuis plus de trois ans, mais le support stable [async/await]() dans le langage lui-même n'a que quelques mois.
-
-Rust fournis un [book offciel](https://rust-lang.github.io/async-book/) concernant la programmation asynchrone
+Si la programmation asynchrone vous intéresse, sachez que 4 des 10 plus importantes crates Rust, [tokio](https://crates.io/crates/tokio), [async](https://crates.io/crates/async-std), [futures](https://crates.io/crates/futures) et [hyper](https://crates.io/crates/hyper) sont des framework pour des applications multi-thread asynchrone et Rust fournis un [book officiel](https://rust-lang.github.io/async-book/) concernant la programmation asynchrone.

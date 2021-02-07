@@ -17,7 +17,7 @@ play video games    false
 Qu'est-ce que nous allons couvrir ?
 * [Gestion d'erreur en Rust](https://doc.rust-lang.org/book/ch09-00-error-handling.html),
 * [Options et type Null](https://doc.rust-lang.org/stable/book/ch06-00-enums.html),
-* [Struct](https://doc.rust-lang.org/std/keyword.struct.html) et [impl](https://doc.rust-lang.org/std/keyword.impl.html),
+* Structures et [impl](https://doc.rust-lang.org/std/keyword.impl.html),
 * Terminal [Input/Output](https://en.wikipedia.org/wiki/Input/output),
 * Gestion de [système de fichiers](https://doc.rust-lang.org/std/fs/index.html),
 * [Ownership](https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html) et [emprunt](https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html) en Rust,

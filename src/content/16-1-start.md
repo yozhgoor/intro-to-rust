@@ -1,21 +1,26 @@
 # Commencer avec Rust
 
-D'abord, téléchargez Rust sur votre ordinateur. Pour ça, veuillez suivre les instructions que vous pouvez trouver sur la page [getting started]() du site officiel de Rust.
+D'abord, téléchargez Rust sur votre ordinateur.
 
-Là, vous trouverez également les instructions pour intégrer le langage à votre éditeur favori pour une meilleure expérience.
+Pour les systèmes Unix comme Linux et MacOS, vous devez simplement ouvrir un terminal et écrire ceci:
 
-// add an example of Rust install on Linux
+`$ curl https://sh.rustup.rs -sSf | sh`
+
+Si tout va bien, vous devriez voir ceci apparaitre dans votre terminal
+
+`Rust is installed now. Great!`
+
+Pour d'autres options d'installation et informations, vous pouvez vous rendre sur la page [getting started](https://www.rust-lang.org/learn/get-started) du site officiel de Rust. Là, vous trouverez également les instructions pour intégrer le langage à votre éditeur favori pour une meilleure expérience.
 
 ## Débuter un projet
 
 Pour commencer un nouveau projet, allez à l'endroit où vous voulez créer votre projet (comme un dossier `/repos` par exemple) et lancez simplement `cargo new <project-name>`. Dans mon cas, j'ai gardé le nom du tutoriel de base et utilisé "todo-cli". J'ai donc lancé:
 
-`& cargo new todo-cli`
+`$ cargo new todo-cli`
 
 Maitenant, naviguez vers le dossier fraichement créé et listez son contenu. Vous devriez voir deux fichier à l'intérieur du dossier
 
-// add a photo of a new rust project tree
-
+![Schema du contenu du dossier todo-cli](../img/todo_cli.png)
 
 Nous allons travailler sur le fichier `src/main.rs` pour le reste de ce livre, donc allons-y et ouvrons-le:
 

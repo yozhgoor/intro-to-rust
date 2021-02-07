@@ -15,13 +15,11 @@ fn simple_math(val: i32) -> i32 {
 }
 ```
 
-Rust apprends de ces deux styles et exige que les éléments de premier niveau tels que les arguments de fonction et les constantes aient des types explicites, tout en permettant l'inférence de type à l'intérieur du corps de la fonction. Il fait de son mieux pour sortir du chemin du programmeur tout en encourageant la maintenabilité à long terme
+Rust apprends de ces deux styles et exige que les éléments de premier niveau tels que les arguments de fonction et les constantes aient des types explicites, tout en permettant l'inférence de type à l'intérieur du corps de la fonction. Il fait de son mieux penser plus loin programmeur tout en encourageant la maintenabilité à long terme
 
-Un langage typé dynamiquement doit connaitre le type des variables au moment de l'exécution. Cela veut dire que le programmeur peut écrire un peu plus vite car il n'a pas à spécifier le type à chaque fois. [Perl](https://www.perl.org/), [Ruby](https://www.ruby-lang.org/en/) ou [Python](https://www.python.org/) sont des langages typé dynamiquement.
+Un langage typé dynamiquement, par contre, doit connaitre le type des variables au moment de l'exécution. Cela veut dire que le programmeur peut écrire un peu plus vite car il n'a pas à spécifier le type à chaque fois. [Perl](https://www.perl.org/), [Ruby](https://www.ruby-lang.org/en/) ou [Python](https://www.python.org/) sont des langages typé dynamiquement.
 
-La division entre les programmeurs qui préférent les système de type dynamique par rapport aux systèmes statiques durera problablement encore des décénnies. On peut par contre remarquer la montée en puissance de langages tels que [TypeScript](https://www.typescriptlang.org/) ou de fonctionnalités telles que les [indices de type Python](https://docs.python.org/3/library/typing.html). Les langages à typage statique permettent des contraintes vérifiées par le compilateur sur les données et leur comportement, ce qui réduit la surcharge cognitive et les malentendus.
-
-Le principal avantage ici est que tout type de vérification peut être faite par le compilateur, ce qui implique que beaucoup de bugs peuvent être détecté à une étape avancé du développement.
+Le principal avantage de Rust ici est que tout type de vérification peut être faite par le compilateur, ce qui implique que beaucoup de bugs peuvent être détecté à une étape avancé du développement.
 
 Cela ne veut pas dire que tous les systèmes de type statique sont équivalent. De nombreux langages à typage statique ont une grande astérisque à côté d'eux: ils permettent le concept de `NULL`.
 

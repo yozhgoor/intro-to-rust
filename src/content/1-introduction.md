@@ -12,7 +12,7 @@ Vous pourrez aussi trouver à la fin de ce livre quelques ressources additionnel
 
 J'ai écris ce livre pour m'essayer à la crate [mdbook](https://github.com/rust-lang/mdBook), il s'agit d'un projet personnel qui, je l'espère, vous permettra de mieux comprendre Rust. Mais je reste un débutant dans le domaine, je n'ai actuellement que peu de connaissances au niveau de Rust et de la programmation en générale, je me suis lancé dans une reconversion professionnelle et je voulais partager un peu de ce que j'ai pu apprendre depuis.
 
-Cet exercice m'aura permis d'approfondir mes connaissances de Rust et je me suis dis que le partager pourrait peut être amener de nouveau membres dans cette merveilleuse aventure que je commence à peine.
+Cet exercice m'aura permis d'approfondir mes connaissances de Rust et je me suis dis que le partager pourrait peut être amener de nouveaux membres dans cette merveilleuse aventure que je commence à peine.
 
 <img
     src="../img/logo_rust.png"

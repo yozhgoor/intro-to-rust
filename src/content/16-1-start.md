@@ -10,6 +10,8 @@ Si tout va bien, vous devriez voir ceci apparaitre dans votre terminal
 
 `Rust is installed now. Great!`
 
+Du coté de Windows, téléchargez et lancez [rustup-init.exe](https://win.rustup.rs). Cela va démarrer l'installation dans une console et vous devriez voir le message précédent si l'opération est un succès.
+
 Pour d'autres options d'installation et informations, vous pouvez vous rendre sur la page [getting started](https://www.rust-lang.org/learn/get-started) du site officiel de Rust. Là, vous trouverez également les instructions pour intégrer le langage à votre éditeur favori pour une meilleure expérience.
 
 ## Débuter un projet

@@ -13,6 +13,4 @@ l'utilisation de la programmation orienté objet en Rust peut différer de ce qu
 * Polymorphisme
   * Le polymorphisme est un concept consistant à fournir une interface unique à des entités pouvant avoir différents types. Rust y arrive, encore une fois, un peu différemment grâce à l'utilisation de [generics](https://doc.rust-lang.org/book/ch10-00-generics.html).
 
-Le fait que Rust permette une implémentation différente de l'OOP pourrait rendre l'apprentissage de Rust plus compliqué pour des développeurs venant d'autres langages orienté objet, dans le sens où ils doivent modifier leurs habitudes et la façon de penser leur code. Aussi, certaines définitions classifierait Rust comme étant un langage orienté objet, d'autres non.
-
-Voici quelques crates pouvant vous aider en programmation objet:
+Le fait que Rust permette une implémentation différente de l'OOP pourrait rendre l'apprentissage de Rust plus compliqué pour des développeurs venant d'autres langages orienté objet, dans le sens où ils doivent modifier leurs habitudes et la façon de penser leur code. Aussi, certaines définitions classifierait Rust comme étant un langage orienté objet, d'autres non. Cela vient du fait qu'une structure ne peut pas hérité des champs et fonctions d'un struct parent.

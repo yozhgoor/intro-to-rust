@@ -2,15 +2,22 @@
 
 La [programmation système](https://en.wikipedia.org/wiki/Systems_programming) est un type de programmation qui vise au développement de programmes qui font partie du système d'exploitation d'un ordinateur ou qui en réalisent les fonctions. On peut trouver des langages comme le [langage assembleur](https://en.wikipedia.org/wiki/Assembly_language), C ou C++.
 
-Un des plus grand bénéfice de l'utilisation d'un langage de programmation systéme est son habilité à contrôler des détails bas-niveau. Pour beaucoup de gens, Rust est largement considéré comme une alternative aux autres langages de programmation de systèmes, En tant que langage de niveau système destiné à remplacer C et C++, la plupart des gens supposent que Rust serait utilisé dans la programmation d'infrastructure, comme les systèmes d'exploitation, les bibliothèques natives et les plate-formes d'exécution.
+Un des plus grand bénéfice de l'utilisation d'un langage de programmation systéme est son habilité à contrôler des détails bas-niveau. Pour beaucoup de gens, Rust est largement considéré comme une alternative aux autres langages de programmation de systèmes, En tant que langage destiné à remplacer C et C++, la plupart des gens supposent que Rust serait utilisé dans la programmation d'infrastructure, comme les systèmes d'exploitation, les bibliothèques natives et les plate-formes d'exécution.
 
-Les langages de programmation systèmes s'attendent implicitement à ce qu'ils existent pour toujours. Bien que certains développements modernes ne nécessitent pas autant de longévité, de nombreuses entreprises veulent savoir que leur base de code fondamentale sera utilisable dans un avenir prévisible. Rust reconnaît cela et a pris des décisions de conception consciente concertant la [compatibilité ascendante](https://en.wikipedia.org/wiki/Backward_compatibility) et la stabilité. C'est un langage conçu pour les 40 prochaines années.
+Rust a comme objectif de sécuriser la programmation système, rendre la programmation système plus sûre permet à davantage de développeurs de se sentir habilités à écrire des programmes systèmes. Impliquer davantage de personnes dans la programmation système signifie qu'un plus grand nombre de profils et d'expériences pourra comprendre et produire des programmes systèmes.
+
+Les langages de programmation systèmes s'attendent implicitement à une très longue période d'activité. Bien que certains développements modernes ne nécessitent pas autant de longévité, de nombreuses entreprises veulent savoir que leur base de code fondamentale sera utilisable dans un avenir prévisible. Rust reconnaît cela et a pris des décisions de conception consciente concernant la [compatibilité ascendante](https://en.wikipedia.org/wiki/Backward_compatibility) et la stabilité. C'est un langage conçu pour les 40 prochaines années.
 
 Le plus grand avantage que Rust peut offrir par rapport à ces langages est le *borrow checker* (Vérificateur d'emprunt en français). C'est la partie du compilateur chargée de s'assurer que les références ne survivent pas aux données auxquelles elles se réfèrent, et cela aide à éliminer des classes entières de bugs causées par l'insécurité de la mémoire.
 
 Contrairement à de nombreux langages de programmation de systèmes existants, Rust ne vous oblige pas à passer tout votre temps dans les moindres détails. Rust s'efforce d'avoir autant d'abstractions à coût nul que possible, des abstractions aussi performantes que le code manuscrit équivalent. Dans cet exemple, nous montrons commment les itérateurs, une abstraction principale de Rust, peuvent être utilisés pour créer succintement un vecteur contenant les dix premiers nombres carrés.
 
-`let squares: Vec<_> = (0..10).map(|i| i * i).collect();`
+```rust
+let squares: Vec<_> = (0..10).map(|i| i * i).collect();
+println!("{:?}", squares);
+```
+
+Je vous laisse un [thread reddit](https://www.reddit.com/r/rust/comments/7hkt2t/how_do_i_get_into_systems_programming/) qui vous orientera vers des ressources qui vous permettront de commencer en programmmation système ainsi qu'un [liste de différents outils](https://awesomeopensource.com/project/rust-unofficial/awesome-rust#system-tools) orienté programmation système
 
 ## Safe et Unsafe
 

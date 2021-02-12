@@ -54,7 +54,8 @@ Au dela des points techniques, Rust possède une communauté dynamique et accuei
 * Le [Rust lang Slack](https://rust-slack.herokuapp.com/)
 * le [subreddit](https://www.reddit.com/r/rust/d) Rust
 * les questions et Réponses sur [StackOverflow](https://stackoverflow.com/questions/tagged/rust) et son [blog](https://stackoverflow.blog/?s=rust).
+* la communauté Rust est aussi très présente sur [Twitter](https://twitter.com/)
 
-Rust a un code de conduite appliqué par une [équipe de modération](https://www.rust-lang.org/governance/teams/moderation) impressionnante pour s'assurer que les espaces officiels sont accueillants, et la plupart des espaces non officiels observent également quelque chose de similaire.
+Rust a un code de conduite appliqué par une [équipe de modération](https://www.rust-lang.org/governance/teams/moderation) impressionnante pour s'assurer que les espaces officiels soient accueillants, et la plupart des espaces non officiels observent également quelque chose de similaire.
 
-Hors ligne, Rust a plusieurs conférences autour du globe comme [RustConf](https://rustconf.com/), [Rust Belt Rust](https://www.rust-belt-rust.com/), [RustFest](https://rustfest.global/), [Rust Latam](https://www.rustlatam.org/), [RustCon Asia](https://rustcon.asia/), [Rusty Days](https://rusty-days.org/), [RustLab](https://rustlab.it/), etc...
+Hors ligne, (même si la période Covid à chamboulé pas mal de chose) Rust a plusieurs conférences autour du globe comme [RustConf](https://rustconf.com/), [Rust Belt Rust](https://www.rust-belt-rust.com/), [RustFest](https://rustfest.global/), [Rust Latam](https://www.rustlatam.org/), [RustCon Asia](https://rustcon.asia/), [Rusty Days](https://rusty-days.org/), [RustLab](https://rustlab.it/), etc...

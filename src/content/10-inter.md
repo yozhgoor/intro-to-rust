@@ -6,9 +6,11 @@ A mesure que l'adoption de Rust se développe, les développeurs doivent de plus
 
 Maintenant que Rust se développe dans les projets de logiciels d'applications, davantage d'interface et de ponts au niveau langage sont nécessaires maintenant. Un bon exemple est le [Rust JavaScript bridge](https://www.secondstate.io/articles/rust-functions-in-nodejs/) qui prend en charge les [fonctions Rust dans les applications Node.js](https://www.secondstate.io/articles/getting-started-with-rust-function/), l'approche d'applications [hybride Rust + JavaScript](https://www.secondstate.io/articles/getting-started-with-rust-function/) prend de l'ampleur.
 
-L'enquête a révélé que, outre C/C++ et JavaScript, les développeurs Rust sont intéressés par l'intégration avec R et Python. Cela indique l'intérêt des développeurs pour les applications d'apprentissage automatique, de big data et d'intelligence artificielle (IA). En fait, de nombreux packages d'apprentissages automatique et statistiques Python et R sont implémentés dans des modules binaires natifs.
+L'enquête a révélé que, outre C/C++ et [JavaScript](https://www.javascript.com/), les développeurs Rust sont intéressés par l'intégration avec [R](https://www.r-project.org/) et Python. Cela indique l'intérêt des développeurs pour les applications d'apprentissage automatique, de big data et d'intelligence artificielle (IA).
 
-Rust est l'un des meilleurs langages de programmation pour écrire des modules natifs. [Cet exemple](https://github.com/second-state/rust-wasm-ai-demo) montre comment utiliser Rust pour exécuter des [modèles Tensorflow dans une application Node.js](https://www.secondstate.io/articles/artificial-intelligence/). A l'avenir, nous envisageons que ces modules Rust s'exécutent dans des conteneurs hautes performance gérés tels que WebAssembly.
+En fait, de nombreux packages d'apprentissages automatique et statistiques Python et R sont implémentés dans des modules binaires natifs. Rust est l'un des meilleurs langages de programmation pour écrire des modules natifs. [Cet exemple](https://github.com/second-state/rust-wasm-ai-demo) montre comment utiliser Rust pour exécuter des [modèles Tensorflow dans une application Node.js](https://www.secondstate.io/articles/artificial-intelligence/).
+
+A l'avenir, nous envisageons que ces modules Rust s'exécutent dans des conteneurs hautes performance gérés tels que WebAssembly.
 
 Voici quelques crates qui pourraient vous aider à lier Rust avec un autre langage dans vos applications:
 

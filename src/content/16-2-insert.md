@@ -10,7 +10,7 @@ Nous allons utiliser les [`struct`](https://doc.rust-lang.org/std/keyword.struct
 
 Notre fichier devrait ressembler à ceci:
 
-```rust
+```rust, ignore
 use std::collections::HashMap;
 
 fn main() {

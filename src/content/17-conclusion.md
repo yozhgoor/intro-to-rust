@@ -4,13 +4,14 @@ J'espère que cette introduction vous aura appris quelque chose et éveillez vot
 
 Comme vous avez pu le voir, Rust est un langage de programmation qui est rapide, sécurisé et stable, son utilisation se répand de plus en plus chaque année et les possibilités qu'ils offrent sont énormes. Beaucoup vantent la qualité et l'entraide de la communauté ainsi que l'ecosystéme pratique et grandissant. C'est ce qui me motive à apprendre ce langage ainsi que la programmation. En esperant que j'aurais su vous motiver un peu plus ou du moins vous orienter.
 
-n'hésitez pas à me contacter sur mon compte [Twitter](https://twitter.com/yozhgoor) pour me donner votre feedback ou apporter quelques corrections
+N'hésitez pas à me contacter sur mon compte [Twitter](https://twitter.com/yozhgoor) pour me donner votre feedback ou apporter quelques corrections.
 
 Avant de finir, Voici quelques ressources additionnelles pour vous aider à avancer dans votre aventure Rust:
 
 * A propos de Rust
-  * [The Rust Programming Language](https://www.rust-lang.org/), le site web officiel du langage de programmation Rust
-  * [Rust Cheat Sheet](https://cheats.rs/), Cheat sheet concernant Rust et son utilisation
+  * [The Rust Programming Language](https://www.rust-lang.org/), Le site web officiel du langage de programmation Rust.
+  * [Rust Cheat Sheet](https://cheats.rs/), Cheat sheet concernant Rust et son utilisation.
+  * [Awesome Rust](https://awesomeopensource.com/project/rust-unofficial/awesome-rust), Une liste de code et ressources Rust.
 
 * Exercices
   * [Tour of Rust](https://tourofrust.com/), Guide pas à pas concernant les fonctionnalités de Rust.
@@ -24,11 +25,11 @@ Avant de finir, Voici quelques ressources additionnelles pour vous aider à avan
   * [Programming Rust](https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/) par Jim Blandy, Jason Orendorff et Leonora F.S. Tindall, Guide pratique pour comprendre Rust.
 
 * Ebook
-  * [Rust Book](https://doc.rust-lang.org/stable/book/), Livre officiel du Rust Programming Language
+  * [Rust Book](https://doc.rust-lang.org/stable/book/), Livre officiel du Rust Programming Language.
   * [Rust Essentials](https://allitbooks.net/programming/1931-rust-essentials.html), Ce livre vous montre ou et comment utiliser Rust.
-  * [Begin Rust](https://www.beginrust.com/)
+  * [Begin Rust](https://www.beginrust.com/).
 
 * Vidéo
-  * [Rust Course](https://www.udemy.com/courses/search/?q=rust) sur Udemy
-  * [Introduction to rust](https://www.youtube.com/channel/UCpeX4D-ArTrsqvhLapAHprQ) de Ryan Levick
-  * [Rust Course for Beginners](https://www.youtube.com/playlist?list=PLcVYa6NNTe2PaUV1eMH9Di8WpqdhOTTIw) de Federico Terzi
+  * [Rust Course](https://www.udemy.com/courses/search/?q=rust) sur Udemy.
+  * [Introduction to rust](https://www.youtube.com/channel/UCpeX4D-ArTrsqvhLapAHprQ) de Ryan Levick sur Youtube.
+  * [Rust Course for Beginners](https://www.youtube.com/playlist?list=PLcVYa6NNTe2PaUV1eMH9Di8WpqdhOTTIw) de Federico Terzi sur Youtube.

@@ -33,3 +33,17 @@ Avant de finir, Voici quelques ressources additionnelles pour vous aider à avan
   * [Rust Course](https://www.udemy.com/courses/search/?q=rust) sur Udemy.
   * [Introduction to rust](https://www.youtube.com/channel/UCpeX4D-ArTrsqvhLapAHprQ) de Ryan Levick sur Youtube.
   * [Rust Course for Beginners](https://www.youtube.com/playlist?list=PLcVYa6NNTe2PaUV1eMH9Di8WpqdhOTTIw) de Federico Terzi sur Youtube.
+
+En plus, je vous ajoute les liens vers les articles ou les ressources qui m'auront aidé à préparé ce livre au mieux:
+
+* [Wikipedia](https://www.wikipedia.org/)
+* [TechTerms](https://techterms.com/)
+* [FreeCodeCamp](https://www.freecodecamp.org/)
+  * Ce [didacticiel](https://www.freecodecamp.org/news/how-to-build-a-to-do-app-with-rust/) de Claudio Restifo
+  * Cet [article](https://www.freecodecamp.org/news/8-things-i-learned-from-4000-rust-developers/) De Michael Yuan
+  * Cet [article](https://www.freecodecamp.org/news/rust-getting-started-with-the-most-loved-programming-language/) de Manish Shivanandhan
+* [Rust](https://www.rust-lang.org/)
+  * Le [RustBook](https://doc.rust-lang.org/stable/book/#the-rust-programming-language)
+  * [Rust by Example](https://doc.rust-lang.org/rust-by-example/index.html)
+* [The Overflow](https://stackoverflow.blog/)
+  * Cet [article](https://stackoverflow.blog/2020/01/20/what-is-rust-and-why-is-it-so-popular/) de Jake Goulding

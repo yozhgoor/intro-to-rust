@@ -1,12 +1,16 @@
 # Conclusion
 
-J'espère que cette introduction vous aura appris quelque chose et éveillez votre curiosité. N'oubliez pas que nous avons travaillé avec un langage vraiment "bas-niveau", pourtant revoir le code a probablement semblé très familier à la plupart ce qui permet d'écrire du code à la fois ultra-rapide et efficace en mémoire sans la peur qui vient avec une telle responsabilité: On sais que le compilateur sera là, arrêtant le code avant même qu'il ne soit possible de l'exécuter.
+J'espère que cette introduction vous aura appris quelque chose et éveillez votre curiosité.
+N'oubliez pas que nous avons travaillé avec un langage vraiment "bas-niveau", pourtant revoir le code a probablement semblé très familier à la plupart ce qui permet d'écrire du code à la fois ultra-rapide et efficace en mémoire sans la peur qui vient avec une telle responsabilité: on sais que le compilateur sera là, arrêtant le code avant même qu'il ne soit possible de l'exécuter.
 
-Comme vous avez pu le voir, Rust est un langage de programmation qui est rapide, sécurisé et stable, son utilisation se répand de plus en plus chaque année et les possibilités qu'ils offrent sont énormes. Beaucoup vantent la qualité et l'entraide de la communauté ainsi que l'ecosystéme pratique et grandissant. C'est ce qui me motive à apprendre ce langage ainsi que la programmation. En esperant que j'aurais su vous motiver un peu plus ou du moins vous orienter.
+Comme vous avez pu le voir, Rust est un langage de programmation qui est rapide, sécurisé et stable, son utilisation se répand de plus en plus chaque année et les possibilités qu'ils offrent sont énormes.
+Beaucoup vantent la qualité et l'entraide de la communauté ainsi que l'ecosystéme pratique et grandissant.
+C'est ce qui me motive à apprendre ce langage ainsi que la programmation.
+En esperant que j'aurais su vous motiver un peu plus ou du moins vous orienter.
 
 N'hésitez pas à me contacter sur mon compte [Twitter](https://twitter.com/yozhgoor) pour me donner votre feedback ou apporter quelques corrections.
 
-Avant de finir, Voici quelques ressources additionnelles pour vous aider à avancer dans votre aventure Rust:
+Avant de finir, voici quelques ressources additionnelles pour vous aider à avancer dans votre aventure Rust:
 
 * A propos de Rust
   * [The Rust Programming Language](https://www.rust-lang.org/), Le site web officiel du langage de programmation Rust.
@@ -33,3 +37,17 @@ Avant de finir, Voici quelques ressources additionnelles pour vous aider à avan
   * [Rust Course](https://www.udemy.com/courses/search/?q=rust) sur Udemy.
   * [Introduction to rust](https://www.youtube.com/channel/UCpeX4D-ArTrsqvhLapAHprQ) de Ryan Levick sur Youtube.
   * [Rust Course for Beginners](https://www.youtube.com/playlist?list=PLcVYa6NNTe2PaUV1eMH9Di8WpqdhOTTIw) de Federico Terzi sur Youtube.
+
+En plus, je vous ajoute les liens vers les articles ou les ressources qui m'auront aidé à préparé ce livre au mieux:
+
+* [Wikipedia](https://www.wikipedia.org/)
+* [TechTerms](https://techterms.com/)
+* [FreeCodeCamp](https://www.freecodecamp.org/)
+  * Ce [didacticiel](https://www.freecodecamp.org/news/how-to-build-a-to-do-app-with-rust/) de Claudio Restifo
+  * Cet [article](https://www.freecodecamp.org/news/8-things-i-learned-from-4000-rust-developers/) De Michael Yuan
+  * Cet [article](https://www.freecodecamp.org/news/rust-getting-started-with-the-most-loved-programming-language/) de Manish Shivanandhan
+* [Rust](https://www.rust-lang.org/)
+  * Le [RustBook](https://doc.rust-lang.org/stable/book/#the-rust-programming-language)
+  * [Rust by Example](https://doc.rust-lang.org/rust-by-example/index.html)
+* [The Overflow](https://stackoverflow.blog/)
+  * Cet [article](https://stackoverflow.blog/2020/01/20/what-is-rust-and-why-is-it-so-popular/) de Jake Goulding

@@ -1,10 +1,12 @@
 # Insérer et sauvegarder des données
 
-Réfléchissons un instant à notre objectif pour le programme. Nous voulons lire l'argument fourni par l'utilisateur, mettre à jour notre todo list, et la stocker quelque part pour l'utilisation.
+Réfléchissons un instant à notre objectif pour le programme.
+Nous voulons lire l'argument fourni par l'utilisateur, mettre à jour notre todo list, et la stocker quelque part pour l'utilisation.
 
 Pour faire cela, nous devons implémenter notre propre type pour lequel nous pouvons définir une méthode pour répondre à nos besoins.
 
-Nous allons utiliser les [`struct`](https://doc.rust-lang.org/std/keyword.struct.html) de Rust, ce qui nous permettra de faire les deux de manière clean. Cela évite d'avoir à écire tout le code à l'intérieur de la fonction `main`.
+Nous allons utiliser les [`struct`](https://doc.rust-lang.org/std/keyword.struct.html) de Rust, ce qui nous permettra de faire les deux de manière clean.
+Cela évite d'avoir à écire tout le code à l'intérieur de la fonction `main`.
 
 ## Comment définir notre structure
 
@@ -30,7 +32,8 @@ Nous ajoutons ici deux éléments:
 
 `use std::collections::HashMap;`
 
-Etant donné que nous taperons beaucoup HashMap dans les étapes suivantes, nous pouvons l'amener dans la portée et nous éviter de le retaper. Ceci va nous permettre d'utiliser `HashMap` directement sans devoir taper le chemin complet à chaque fois.
+Etant donné que nous taperons beaucoup HashMap dans les étapes suivantes, nous pouvons l'amener dans la portée et nous éviter de le retaper.
+Ceci va nous permettre d'utiliser `HashMap` directement sans devoir taper le chemin complet à chaque fois.
 
 ```rust,ignore
 struct Todo {
@@ -38,7 +41,9 @@ struct Todo {
 }
 ```
 
-Cela va définir notre type personnalisé `Todo`: une structure avec un seul champ nommé `map`. Ce champ est un [HashMap](https://doc.rust-lang.org/std/collections/struct.HashMap.html). Vous pouvez le considérer comme une sorte d'objet JavaScript, où Rust nous oblige à déclarer les types de clé et de valeur.
+Cela va définir notre type personnalisé `Todo`: une structure avec un seul champ nommé `map`.
+Ce champ est un [HashMap](https://doc.rust-lang.org/std/collections/struct.HashMap.html).
+Vous pouvez le considérer comme une sorte d'objet JavaScript, où Rust nous oblige à déclarer les types de clé et de valeur.
 
 ## Ajouter des méthodes à notre structure
 
@@ -62,8 +67,11 @@ Cette fonction est assez simple: elle prend seulement une *référence* à la st
 
 Deux informations très importantes:
 
-* [`mut`](https://doc.rust-lang.org/std/keyword.mut.html) rend une variable mutable. En Rust chaque variable est *immuable* par défaut. Si vous voulez mettre à jour votre valeur, vous devez activer sa mutabilité en utilisant le mot-clé `mut`.
+* [`mut`](https://doc.rust-lang.org/std/keyword.mut.html) rend une variable mutable.
+  En Rust chaque variable est *immuable* par défaut.
+  Si vous voulez mettre à jour votre valeur, vous devez activer sa mutabilité en utilisant le mot-clé `mut`.
     * Etant donné qu'avec notre fonction, nous modifions effectivmeent notre map en ajoutant une nouvelle valeur, nous avons besoin qu'elle soit déclarée mutable.
-* [`&`](https://doc.rust-lang.org/std/primitive.reference.html) indique une *référence*. Vous pouvez imaginer que la variable a un pointeur vers un emplacement de la mémoire où la valeur est stockée, à la pace d'être la valeur elle-même.
+* [`&`](https://doc.rust-lang.org/std/primitive.reference.html) indique une *référence*.
+  Vous pouvez imaginer que la variable a un pointeur vers un emplacement de la mémoire où la valeur est stockée, à la place d'être la valeur elle-même.
 
 Dans les termes Rust, il s'agit d'un [*borrow*](https://doc.rust-lang.org/rust-by-example/scope/borrow.html) (emprunt en français), signalant que la fonction ne posséde actuellement pas la valeur, mais pointe simplement vers l'emplacement où elle est stockée.

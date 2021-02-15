@@ -1,10 +1,12 @@
 # Créer un programme en ligne de commande
 
-Ce tutoriel est ma version de celui fait par [Claudio Restifo](https://www.freecodecamp.org/news/author/claudio/) sur [FreeCodeCamp](https://www.freecodecamp.org/news/how-to-build-a-to-do-app-with-rust/) et traduit en Français. Son but est de vous donner un aperçu pratique de certains concepts qui vous permettront de découvrir Rust.
+Ce tutoriel est ma version de celui fait par [Claudio Restifo](https://www.freecodecamp.org/news/author/claudio/) sur [FreeCodeCamp](https://www.freecodecamp.org/news/how-to-build-a-to-do-app-with-rust/) et traduit en Français.
+Son but est de vous donner un aperçu pratique de certains concepts qui vous permettront de découvrir Rust.
 
 Si vous préférez voir le code directement, vous pouvez accéder à ce [repository GitHub](https://github.com/yozhgoor/todo-cli).
 
-Le créateur de ce tutoriel vient du monde de JavaScript, où il est traditionnel de faire une To-Do App comme premier projet. Être familier avec la ligne de commande est nécessaire car l'application va tourner dans le terminal et vous aurez aussi besoin de certaines connaissances des concepts de programmation généraux.
+Le créateur de ce tutoriel vient du monde de JavaScript, où il est traditionnel de faire une To-Do App comme premier projet.
+Être familier avec la ligne de commande est nécessaire car l'application va tourner dans le terminal et vous aurez aussi besoin de certaines connaissances des concepts de programmation généraux.
 
 Nous allons stocker des valeurs en tant que collection d'item et une valeur [booléenne](https://en.wikipedia.org/wiki/Boolean_data_type) représentera son état actif.
 

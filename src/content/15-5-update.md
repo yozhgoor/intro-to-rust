@@ -4,7 +4,8 @@ Comme dans toutes les applications TODO, nous voulons pouvoir non seulement ajou
 
 ## Ajouter la méthode complete
 
-Pour faire cela, ajoutons une nouvelle méthode à notre struct nommé "complete". Dedans, on prend une référence à une clé, et on mets la valeur à jour, ou on retourne `None` si la clé n'est pas présente.
+Pour faire cela, ajoutons une nouvelle méthode à notre struct nommé "complete".
+Dedans, on prend une référence à une clé, et on mets la valeur à jour, ou on retourne `None` si la clé n'est pas présente.
 
 ```rust,ignore
 impl Todo {
@@ -31,11 +32,12 @@ Toute la méthode retourne le résultat de l'expression `match` avec [`self.map.
 
 `Some(v) => Some(*v = false),`
 
-Si on récupére un Some, nous avons une donc une référence mutable à une valeur de clé, Nous utilisons l'opérateur [`*`](https://doc.rust-lang.org/book/appendix-02-operators.html) pour déréférencer la valeur et la définir sur false.
+Si on récupére un Some, nous avons une donc une référence mutable à une valeur de clé.
+Nous utilisons l'opérateur [`*`](https://doc.rust-lang.org/book/appendix-02-operators.html) pour déréférencer la valeur et la définir sur false.
 
 ## Comment utiliser la méthode complete
 
-On peut utiliser la méthode `complete` de la même manière que nou avons utilisé la méthode `insert` auparavant.
+On peut utiliser la méthode `complete` de la même manière que nous avons utilisé la méthode `insert` auparavant.
 
 Dans `main`, vérifiez que l'action passé en argument est "complete" en utilisant une instruction `else if`:
 
@@ -63,7 +65,8 @@ Il est temps d'analyser ce que nous faisons ici:
 
 `match todo.complete(&item) {`
 
-on match l'Option retourné par la méthode `todo.complete`, on passe les items en tant que référence avec `&item` pour que la valeur soit toujours possédée par la fonction. Cela signifie que l'on peut l'utiliser dans notre macro `println!`, si nous n'avions pas fait cela, la valeur aurait été possédée par `complete` et abandonnée là.
+On match l'Option retourné par la méthode `todo.complete`, on passe les items en tant que référence avec `&item` pour que la valeur soit toujours possédée par la fonction.
+Cela signifie que l'on peut l'utiliser dans notre macro `println!`, si nous n'avions pas fait cela, la valeur aurait été possédée par `complete` et abandonnée là.
 
 `None => println!("'{}' is not present in the list", item),`
 
@@ -76,4 +79,5 @@ Some(_) => match todo.save() {
 }
 ```
 
-Si l'on détecte qu'une valeur `Some` a été retournée, on appelle `todo.save` pour stocker les changements de manière permanente dans notre fichier. `Err` nous d'afficher un message à l'utilisateur si notre `save` rencontre une erreur.
+Si l'on détecte qu'une valeur `Some` a été retournée, on appelle `todo.save` pour stocker les changements de manière permanente dans notre fichier.
+`Err` nous d'afficher un message à l'utilisateur si notre `save` rencontre une erreur.

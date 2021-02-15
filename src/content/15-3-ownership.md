@@ -31,9 +31,12 @@ fn main() {
 ```
 Ce concept est largement considéré comme le plus difficile à comprendre lors de l'apprentissage de Rust, car c'est un concept qui peut être nouveau pour de nombreux programmeurs.
 
-Nous n'allons pas creuser plus en profondeur les tenant et aboutissant du système d'ownership. Pour le moment, gardez en tête les règles mentionnées plus haut. Essayez de penser, à chaque étape, si vous avez besoin de "posséder" les valeurs et de les supprimer, ou si vous avez besoin d'une référence pour qu'elle puisse être conservée.
+Nous n'allons pas creuser plus en profondeur les tenant et aboutissant du système d'ownership.
+Pour le moment, gardez en tête les règles mentionnées plus haut.
+Essayez de penser, à chaque étape, si vous avez besoin de "posséder" les valeurs et de les supprimer, ou si vous avez besoin d'une référence pour qu'elle puisse être conservée.
 
-Par exemple, dans la méthode `insert` ci-dessus, nous ne voulons pas posséder `map`, car nous en avons encore besoin pour stocker ses données quelque part. Ce n'est qu'alors que nous pourrons enfin libérer la mémoire allouée.
+Par exemple, dans la méthode `insert` ci-dessus, nous ne voulons pas posséder `map`, car nous en avons encore besoin pour stocker ses données quelque part.
+Ce n'est qu'alors que nous pourrons enfin libérer la mémoire allouée.
 
 ## Sauvegarder map sur le disque
 
@@ -85,13 +88,17 @@ On pousse la chaîne formaté dans la variable `content`.
 
 On écrit `content` à l'intérieur du fichier nommé `db.txt`.
 
-Il est important de noter que `save` *prend possession* de `self`. C'est une décision arbitraire pour que le compilateur nous arrête si nous essayons accidentellement de mettre à jour la map après avoir appelé `save` (car la mémoire de `self` serait libérée).
+Il est important de noter que `save` *prend possession* de `self`.
+C'est une décision arbitraire pour que le compilateur nous arrête si nous essayons accidentellement de mettre à jour la map après avoir appelé `save` (car la mémoire de `self` serait libérée).
 
-C'est une décision personnelle de "forcer" save à être la dernière méthode utilisée. Et c'est un exemple parfait pour vous montrer comment vous pouvez utiliser la gestion de mémoire de Rust pour créer du code plus strict qui ne pas pas compiler (qui aide à prévenir les erreurs humaines lors du développement).
+C'est une décision personnelle de "forcer" save à être la dernière méthode utilisée.
+Et c'est un exemple parfait pour vous montrer comment vous pouvez utiliser la gestion de mémoire de Rust pour créer du code plus strict qui ne pas pas compiler (qui aide à prévenir les erreurs humaines lors du développement).
 
 ## Comment utiliser la structure dans main
 
-Maintenant que nous avons ces deux méthodes, nous pouvons les utiliser. Nous avons laissé `main` au point où nous lisons les arguments fournis. Maintenant si l'action fournie est "add" nous allons insérer cet item dans le fichier et le stocker pour une utilisation future.
+Maintenant que nous avons ces deux méthodes, nous pouvons les utiliser.
+Nous avons laissé `main` au point où nous lisons les arguments fournis.
+Maintenant si l'action fournie est "add" nous allons insérer cet item dans le fichier et le stocker pour une utilisation future.
 
 Notre fonction `main` devrait ressembler à ceci:
 

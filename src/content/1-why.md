@@ -1,6 +1,6 @@
 # Pourquoi Rust ?
 
-Rust est un langage de programmation bas-niveau (système), orienté performances et sécurité mais aussi un langage [multi-paradigme](https://en.wikipedia.org/wiki/Programming_paradigm) que l'on trouve généralement plus souvent dans les langages de haut-niveau tel que C#, Java, Go, Python ou encore JavaScript.
+Rust est un langage de programmation bas-niveau, orienté performances et sécurité mais aussi un langage [multi-paradigme](https://en.wikipedia.org/wiki/Programming_paradigm) que l'on trouve généralement plus souvent dans les langages de haut-niveau tel que C#, Java, Go, Python ou encore JavaScript.
 La popularité croissante de Rust crée une opportunité pour les programmeurs de découvrir un mélange de certains des plus grands paradigmes de langage de programmation des langages passés.
 Par multi-paradigme on entends:
 
@@ -20,14 +20,14 @@ Cette situation a généré beaucoup d'incertitudes et de confusion sur le proje
 D'un coté, des sociétés comme [AWS (Amazon Web Services)](https://aws.amazon.com/blogs/opensource/aws-sponsorship-of-the-rust-project/) ou [Microsoft](https://www.zdnet.com/article/microsoft-to-explore-using-rust/) ont montré un grand soutien à Rust en investissant et en récupérant des membres de l'équipe Rust ayant quitté Mozilla afin de travailler sur leurs infrastructures.
 
 La [*Rust Core Team*] à alors [annoncé](https://blog.rust-lang.org/2020/08/18/laying-the-foundation-for-rusts-future.html?ref=hvper.com) la création d'un [Fondation Rust](https://foundation.rust-lang.org/) indépendante pour s'occuper de l'avenir de Rust et son écosystéme.
-Cette fondation a fais sa première annonce en ligne le 8 Février 2021.
+Cette fondation a fait sa première annonce en ligne le 8 Février 2021.
 En plus de plusieurs acteurs de l'écosystème Rust, on peut voir qu'AWS, Google, Huawei, Microsoft et Mozilla font partie [des membres](https://foundation.rust-lang.org/members/) de cette foundation.
 
 Les trois plus gros avantages qu'on connait à ce langage sont les suivants:
 
 * Sécurité et gestion de la mémoire,
-* Accès concurrentiel plus facile grâce au modèle de possession des données,
-* Abstractions à coût nul.
+* Accès concurrentiel plus facile grâce au modèle d'accès aux données,
+* [Abstractions à coût nulle](https://carette.xyz/posts/zero_cost_abstraction/).
 
 le langage de programmation Rust a gagné beaucoup d'attention de la communauté.
 Il a également été désigné "langage de programmation le plus aimé" par le [sondage développeur de StackOverflow](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved) chaque année depuis 2016, ce qui indique que beaucoup de ceux qui ont l'occasion d'utiliser Rust en sont tombés amoureux.

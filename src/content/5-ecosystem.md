@@ -14,7 +14,7 @@ Comme je le disais précédemment, plusieurs chaînes d'outils Rust simultanées
 Cela veut dire qu'il installe les composants du langage Rust depuis les canaux officiels et vous permet de changer entre le compilateur [rustc](https://doc.rust-lang.org/rustc/index.html) stable, beta ou nightly tout en les gardant à jour.
 
 Avec le compilateur de Rust lui-même, Rust vient avec un outil nommé [Cargo](https://doc.rust-lang.org/cargo/).
-Cargo est le gestionnaire de paquet de Rust.
+Cargo est le gestionnaire de paquets de Rust.
 Il télécharge les dépendances de vos paquets, les compiles, les rends distribuables puis les charge sur [crates.io](https://crates.io/).
 
 ## Crates Rust

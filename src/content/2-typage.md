@@ -3,7 +3,7 @@
 Rust est un langage [typé statiquement](https://en.wikipedia.org/wiki/Type_system), cela veut dire que le type des variables doit être connu [au moment de la compilation](https://en.wikipedia.org/wiki/Compile_time).
 
 Pour certains langages, cela veut dire que le programmeur doit spécifier de quel type est chaque variable (comme [Java](https://en.wikipedia.org/wiki/Java_(programming_language)), C ou C++).
-Cela impose une lourde charge au programmeur, l'obligeant à répéter le type d'une variable plusieurs fois, ce qui entrave la lisibilité et la refactorisation.
+Cela impose une lourde charge au programmeur, l'obligeant à répéter le type d'une variable plusieurs fois, ce qui peut potentiellement entraver la lisibilité et la refactorisation dans des projets plus conséquents.
 
 Tandis que d'autres langages utilisent une forme d'[inférence de type](https://en.wikipedia.org/wiki/Type_inference), ils sont capable de déduire le type d'une variable et le programmeur ne devra la spécifier que si le compilateur n'est pas capable de l'inférer pour nous (comme [Haskell](https://en.wikipedia.org/wiki/Haskell_(programming_language)), [Scala](https://en.wikipedia.org/wiki/Scala_(programming_language)) ou [Kotlin](https://en.wikipedia.org/wiki/Kotlin_(programming_language))).
 Certains langages à typage statique permettent l'inférence de type de programme entier.

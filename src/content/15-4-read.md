@@ -2,7 +2,7 @@
 
 Pour le moment, notre programme a un défaut fondamental: chaque fois que nous utilisons "add" on écrase `map` au lieu de le mettre à jour.
 C'est à cause du fait que nous créons un nouveau `map` vide chaque fois qu'on lance le programme.
-Règlons cela.
+Réglons cela.
 
 ## Ajouter une nouvelle fonction dans TODO
 
@@ -40,7 +40,7 @@ impl Todo {
 }
 ```
 
-Pas de soucis si cela semble un peu acablant.
+Pas de soucis si cela semble un peu accablant.
 Nous utilisons un style de programmation plus [fonctionnel](https://en.wikipedia.org/wiki/Functional_programming), principalement pour mettre en valeur et introduire le fait que Rust prend en charge plusieurs [paradigmes](https://en.wikipedia.org/wiki/Programming_paradigm) trouvé dans d'autres langages comme les itérateurs, closures et fonctions lambda.
 
 Voyons ce qu'il se passe ici:
@@ -74,18 +74,18 @@ Cette méthode à été importé avec sa déclaration `use` au début du fichier
 
 Nous devons convertir depuis le type String du fichier vers un HashMap.
 Nous le faisons en liant une variable `map`.
-C'est une des occassions où le compilateur a du mal à inférer le type pour nous, donc on le déclare par nous-même.
+C'est une des occasions où le compilateur a du mal à inférer le type pour nous, donc on le déclare par nous-même.
 
 `.lines()`
 
 [`lines`](https://doc.rust-lang.org/std/primitive.str.html#method.lines) crée un [itérateur](https://doc.rust-lang.org/book/ch13-02-iterators.html) sur chaque ligne d'une `String`.
-Ce qui signife que nous allons maintenant itérer sur chaque entrée de notre fichier, puisque nous l'avons formaté avec "/n" à la fin de chaque entrée.
+Ce qui signifie que nous allons maintenant itérer sur chaque entrée de notre fichier, puisque nous l'avons formaté avec "/n" à la fin de chaque entrée.
 
 `.map(|line| line.splitn(2, '\t').collect::<Vec<&str>>())`
 
 [`map`](https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.map) prends une [closure](https://doc.rust-lang.org/book/ch13-01-closures.html) `(|line|)` et l'appelle sur chaque élément de l'itérateur, [`lines.splitn(2, '\t')`](https://doc.rust-lang.org/std/primitive.str.html#method.splitn) divisera nos lignes sur le caractère tab (`\t`).
 
-Et enfin [`colllect::<Vec<&str>>()`](https://doc.rust-lang.org/core/iter/trait.Iterator.html#method.collect) transforme un itérateur en une collection pertinente.
+Et enfin [`collect::<Vec<&str>>()`](https://doc.rust-lang.org/core/iter/trait.Iterator.html#method.collect) transforme un itérateur en une collection pertinente.
 Comme décrits dans la documentation, c'est l'une des méthodes les plus puissantes de la bibliothèque standard.
 Ici nous disons à la fonction `map` de transformer notre *string divisé* en un Vecteur (`Vec<>`)de *string slices emprunté* (`<&str>`) à la méthode.
 Ceci dit au compilateur quel collection nous voulons à la fin de l'opération.
@@ -102,7 +102,7 @@ La méthode `from_str()` à été importé avec sa déclaration `use` au début 
 `.collect();`
 
 Nous les collectons enfin dans notre HashMap.
-Cette fois nous n'avons pas besoin de déclarer le type que Rust infére depuis la déclaration de liaison.
+Cette fois nous n'avons pas besoin de déclarer le type que Rust infère depuis la déclaration de liaison.
 
 `Ok(Todo { map })`
 

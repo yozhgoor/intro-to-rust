@@ -5,14 +5,14 @@ Et un objet représente une idée, un concept ou toute entité du monde physique
 La programmation orientée objet est aussi divisée en deux catégories, les langages à classes (fonctionnelle ou impérative ou encore les deux) ou les langages à prototype.
 On peut retrouver ce paradigme avec des langages comme [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) ou [Ruby](https://en.wikipedia.org/wiki/Ruby_(programming_language)).
 
-l'utilisation de la programmation orienté objet en Rust peut différer de ce que l'on connait dans d'autres langages de programmation.
-Prenons les quatre pillier de l'OOP (Object Oriented Programming) qui sont **l'encapsulation**, **l'héritage**, **l'abstraction** et **le polymorphisme** et voyons comment Rust fais pour s'adapter.
+l'utilisation de la programmation orienté objet en Rust peut différer de ce que l'on connaît dans d'autres langages de programmation.
+Prenons les quatre pilier de l'OOP (Object Oriented Programming) qui sont **l'encapsulation**, **l'héritage**, **l'abstraction** et **le polymorphisme** et voyons comment Rust fais pour s'adapter.
 
 * Encapsulation
   * L'encapsulation consiste à regrouper les données et les informations dans une seule unité appellée *Classe*.
   Malheureusement, il n'y a pas d'implémentation de classe en Rust mais on peut réaliser une encapsulation en utilisant des [struct](https://doc.rust-lang.org/std/keyword.struct.html).
 * Héritage
-  * L'héritage est un moyen de réutilisabilité du code et de sécurité de type.
+  * L'héritage est un moyen de réutilisé du code et de sécurité de type.
   Dans la réutilisabilité du code, nous pouvons implémenter le comportement d'un type et réutiliser l'implémentation dans différentes sous-classes.
   Dans Rust, il n'y a pas de concepts d'héritage des propriétés d'une structure.
   Au lieu de cela, lorsque vous concevez la relation entre les objets, ses fonctionnalités seront définies par une interface (un [trait](https://doc.rust-lang.org/book/ch10-02-traits.html) en Rust).

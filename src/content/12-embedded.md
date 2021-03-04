@@ -13,4 +13,4 @@ Les principaux types et fonctions de Rust ainsi que les bibliothèques de code r
 
 A nouveau, Rust fournis un [book](https://doc.rust-lang.org/stable/embedded-book/) permettant une approche plus théorique de la programmation embarqué en Rust, et j'ajoute une [liste de ressource](https://github.com/rust-embedded/awesome-embedded-rust) concernant la programmation embarqué et bas niveau en Rust
 
-Il existe aussi plusieurs projets qui pourront vous permettre de commencer rapidement comme un tutorial pour créer un [kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)) monolithique pour Operating System embarqué ou ce [blog post](https://blog.cecton.com/posts/rust-and-riscv/) destiné aux développeurs experimenté mais avec peu de connaissance en embarqué
+Il existe aussi plusieurs projets qui pourront vous permettre de commencer rapidement comme un tutorial pour créer un [kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)) monolithique pour Operating System embarqué ou ce [blog post](https://blog.cecton.com/posts/rust-and-riscv/) destiné aux développeurs expérimenté mais avec peu de connaissance en embarqué

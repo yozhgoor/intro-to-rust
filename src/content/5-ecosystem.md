@@ -1,10 +1,10 @@
 # L'écosystème de Rust
 
-L'expérience Rust est plus vaste qu'une spécifiaction de langage et un compilateur, de nombreux aspects de la création et le maintenance de logiciels sont dans le viseur des équipes Rust.
+L'expérience Rust est plus vaste qu'une spécification de langage et un compilateur, de nombreux aspects de la création et le maintenance de logiciels sont dans le viseur des équipes Rust.
 
 Plusieurs chaînes d'outils Rust simultanées peuvent être installés et gérées via rustup.
 L'installation de Rust est livrée avec Cargo, un outil en ligne de commande permettant de gérer les dépendances, exécuter des tests, générer de la documentation, etc.
-Etant donné que les dépendances, les tests et la documentation sont disponibles de base, leur utilisation est répandue.
+Étant donné que les dépendances, les tests et la documentation sont disponibles de base, leur utilisation est répandue.
 
 De plus, Rust cherche à créer un certain standard pour permettre à tout le monde de travailler sur les mêmes bases.
 Vous pourrez voir que Rust propose plusieurs outils de développement, un gestionnaire de paquet et possède un système de documentation bien à lui.
@@ -19,11 +19,11 @@ Il télécharge les dépendances de vos paquets, les compiles, les rends distrib
 
 ## Crates Rust
 
-Un des aspects les plus important de l'écosystéme d'un langage de programmation est la manière de partager du code avec d'autres développeurs.
+Un des aspects les plus important de l'écosystème d'un langage de programmation est la manière de partager du code avec d'autres développeurs.
 Pour Rust, on passe par des packages, plus souvent appelé "crates".
 
-Crates.io est le site communautaire de partage et de découverte des [biblothèques de code](https://en.wikipedia.org/wiki/Library_(computing)) Rust.
-Tout bibliothéque publiée sur crates.io verra sa documentation construite et publiée sur [docs.rs](https://docs.rs/).
+Crates.io est le site communautaire de partage et de découverte des [bibliothèques de code](https://en.wikipedia.org/wiki/Library_(computing)) Rust.
+Tout bibliothèque publiée sur crates.io verra sa documentation construite et publiée sur [docs.rs](https://docs.rs/).
 Et il existe une alternative non officielle, [libs.rs](https://lib.rs/)
 
 Rust est encore relativement nouveau, ce qui signifie que certaines bibliothèques souhaitées ne sont peut-être pas encore disponibles.
@@ -57,11 +57,11 @@ En tant que "nouveau" langage, Rust est déjà à la pointe de l'innovation en m
 Rust fournis un outil nommé [rustdoc](https://doc.rust-lang.org/rustdoc/what-is-rustdoc.html), son boulot est de générer de la documentation pour les projets Rust.
 
 Les sites de documentation Rust comme [docs.rs](http://docs.rs/) et [Rust by Example](https://doc.rust-lang.org/rust-by-example/) (et sa [version étendue](https://rust-by-example-ext.com/)) utilisent le [Rust Playground](https://play.rust-lang.org/) pour faire tourner des exemples de code Rust directement depuis le navigateur.
-Ces livres intéractivent sont bien mieux que du simple texte.
+Ces livres intéractifs sont bien mieux que du simple texte.
 
 ## Communauté Rust
 
-Au dela des points techniques, Rust possède une communauté dynamique et accueillante.
+Au delà des points techniques, Rust possède une communauté dynamique et accueillante.
 Il existe plusieurs moyens officiels et non officiels permettant aux gens d'obtenir de l'aide, tels que:
 
 * le [forum des utilisateurs](https://users.rust-lang.org/),

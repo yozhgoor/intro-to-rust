@@ -11,7 +11,7 @@ Dans le cas d'une erreur irrécupérable, l'exécution du programme se stoppera,
 ```bash,ignore
 $ Cargo run
 	Compiling a-program v0.1.0 (file:///project/a-program)
-	 Finished dev [unoptimized + debugindfo] targets(s) in 0.6s
+	 Finished dev [unoptimized + debuginfo] targets(s) in 0.6s
 	  Running `target/debug/a-program.rs`
 thread 'main' panicked at 'Your software sucks if it cannot handle errors!', src/main.rs:7:5
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
@@ -45,4 +45,4 @@ fn no_mutable_aliasing() {
 }
 ```
 
-Heureusement, le message d'errreur incorpore notre code et fais de son mieux pour expliquer le problème, pointant vers les emplacements exact.
+Heureusement, le message d'erreur incorpore notre code et fais de son mieux pour expliquer le problème, pointant vers les emplacements exact.

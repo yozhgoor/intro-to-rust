@@ -1,12 +1,12 @@
 # Aperçu du concept d'Ownership
 
-Avec les conseils précédents sur l'emprunt et la référence, c'est maintenant le bon moment pour parler briévement de l'Ownership(https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html) (possession en français?).
+Avec les conseils précédents sur l'emprunt et la référence, c'est maintenant le bon moment pour parler brièvement de l'Ownership(https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html) (possession en français?).
 
 Le système d'ownership possède trois règles:
 
 * Chaque valeur en Rust à une variable: son "Owner".
 * Il peut uniquement y avoir un "Owner" à la fois pour chaque valeur.
-* Lorsque le "Owner" sort de la portée, la valeur sera relachée.
+* Lorsque le "Owner" sort de la portée, la valeur sera relâchée.
 
 Rust vérifie ces règles au moment de la compilation, ce qui signifie que nous devons être explicite pour dire si et quand nous voulons qu'une valeur soit libéré en mémoire.
 Voyons un exemple:
@@ -40,7 +40,7 @@ Ce n'est qu'alors que nous pourrons enfin libérer la mémoire allouée.
 
 ## Sauvegarder map sur le disque
 
-Etant donné que cette une app démo, nous allons adopter la solution la plus simple pour un stockage de long terme: écrire `map` dans un fichier sur le disque.
+Étant donné que cette une app démo, nous allons adopter la solution la plus simple pour un stockage de long terme: écrire `map` dans un fichier sur le disque.
 
 Créons une nouvelle méthode pour notre bloc `impl`.
 
@@ -62,7 +62,7 @@ impl Todo {
 }
 ```
 
-Décomponsons ce que nous venons d'ajouter pour y voir plus clair:
+Décomposons ce que nous venons d'ajouter pour y voir plus clair:
 
 `fn save(self) -> Result<(), std::io::Error> {`
 

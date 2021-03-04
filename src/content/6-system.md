@@ -3,7 +3,7 @@
 La [programmation système](https://en.wikipedia.org/wiki/Systems_programming) est un type de programmation qui vise au développement de programmes qui font partie du système d'exploitation d'un ordinateur ou qui en réalisent les fonctions.
 On peut trouver des langages comme le [langage assembleur](https://en.wikipedia.org/wiki/Assembly_language), C ou C++.
 
-Un des plus grand bénéfice de l'utilisation d'un langage de programmation systéme est son habilité à contrôler des détails bas-niveau.
+Un des plus grand bénéfice de l'utilisation d'un langage de programmation système est son habilité à contrôler des détails bas-niveau.
 Pour beaucoup de gens, Rust est largement considéré comme une alternative aux autres langages de programmation de systèmes.
 En tant que langage destiné à remplacer C et C++, la plupart des gens supposent que Rust serait utilisé dans la programmation d'infrastructure, comme les systèmes d'exploitation, les bibliothèques natives et les plate-formes d'exécution.
 
@@ -20,14 +20,14 @@ C'est la partie du compilateur chargée de s'assurer que les références ne sur
 
 Contrairement à de nombreux langages de programmation de systèmes existants, Rust ne vous oblige pas à passer tout votre temps dans les moindres détails.
 Rust s'efforce d'avoir autant d'abstractions à coût nul que possible, des abstractions aussi performantes que le code manuscrit équivalent.
-Dans cet exemple, nous montrons commment les itérateurs, une abstraction principale de Rust, peuvent être utilisés pour créer succintement un vecteur contenant les dix premiers nombres carrés.
+Dans cet exemple, nous montrons comment les itérateurs, une abstraction principale de Rust, peuvent être utilisés pour créer succinctement un vecteur contenant les dix premiers nombres carrés.
 
 ```rust
 let squares: Vec<_> = (0..10).map(|i| i * i).collect();
 println!("{:?}", squares);
 ```
 
-Je vous laisse un [thread reddit](https://www.reddit.com/r/rust/comments/7hkt2t/how_do_i_get_into_systems_programming/) qui vous orientera vers des ressources qui vous permettront de commencer en programmmation système ainsi qu'un [liste de différents outils](https://awesomeopensource.com/project/rust-unofficial/awesome-rust#system-tools) orienté programmation système
+Je vous laisse un [thread reddit](https://www.reddit.com/r/rust/comments/7hkt2t/how_do_i_get_into_systems_programming/) qui vous orientera vers des ressources qui vous permettront de commencer en programmation système ainsi qu'un [liste de différents outils](https://awesomeopensource.com/project/rust-unofficial/awesome-rust#system-tools) orienté programmation système
 
 ## Safe et Unsafe
 

@@ -32,7 +32,7 @@ Toute la méthode retourne le résultat de l'expression `match` avec [`self.map.
 
 `Some(v) => Some(*v = false),`
 
-Si on récupére un Some, nous avons une donc une référence mutable à une valeur de clé.
+Si on récupère un Some, nous avons une donc une référence mutable à une valeur de clé.
 Nous utilisons l'opérateur [`*`](https://doc.rust-lang.org/book/appendix-02-operators.html) pour déréférencer la valeur et la définir sur false.
 
 ## Comment utiliser la méthode complete

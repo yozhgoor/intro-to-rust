@@ -4,9 +4,9 @@ J'espère que cette introduction vous aura appris quelque chose et éveillez vot
 N'oubliez pas que nous avons travaillé avec un langage vraiment "bas-niveau", pourtant revoir le code a probablement semblé très familier à la plupart ce qui permet d'écrire du code à la fois ultra-rapide et efficace en mémoire sans la peur qui vient avec une telle responsabilité: on sais que le compilateur sera là, arrêtant le code avant même qu'il ne soit possible de l'exécuter.
 
 Comme vous avez pu le voir, Rust est un langage de programmation qui est rapide, sécurisé et stable, son utilisation se répand de plus en plus chaque année et les possibilités qu'ils offrent sont énormes.
-Beaucoup vantent la qualité et l'entraide de la communauté ainsi que l'ecosystéme pratique et grandissant.
+Beaucoup vantent la qualité et l'entraide de la communauté ainsi que l'écosystème pratique et grandissant.
 C'est ce qui me motive à apprendre ce langage ainsi que la programmation.
-En esperant que j'aurais su vous motiver un peu plus ou du moins vous orienter.
+En espérant que j'aurais su vous motiver un peu plus ou du moins vous orienter.
 
 N'hésitez pas à me contacter sur mon compte [Twitter](https://twitter.com/yozhgoor) pour me donner votre feedback ou apporter quelques corrections.
 
@@ -21,7 +21,7 @@ Avant de finir, voici quelques ressources additionnelles pour vous aider à avan
   * [Tour of Rust](https://tourofrust.com/), Guide pas à pas concernant les fonctionnalités de Rust.
   * [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/), Une collection d'exemple exécutable qui illustre certains concepts de Rust.
   * [Rustlings](https://github.com/rust-lang/rustlings), Des petits exercices pour vous permettre de lire et écrire du code Rust.
-  * [Exercism Rust Track](https://exercism.io/), Exercism vous permet de vous entrainer et de trouver un mentor.
+  * [Exercism Rust Track](https://exercism.io/), Exercism vous permet de vous entraîner et de trouver un mentor.
 
 * Livres
   * [Rust in Action](http://www.rustinaction.com/) par Tim McNamara, Introduction à Rust en explorant des techniques et concept de programmation système.

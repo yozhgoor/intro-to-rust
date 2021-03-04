@@ -8,14 +8,14 @@ Techniquement parlant, il s'agit d'un nouveau langage d'assemblage de bas-niveau
 WebAssembly est un environnement d'exécution populaire pour les programmes Rust et ils ont tout les deux été inventé par Mozilla.
 
 Rust se concentre sur les performances et la sécurité de la mémoire, tandis que WebAssembly se concentre sur les performances et la sécurité d'exécution.
-En tant que conteneur d'exécution, WebAssembly rend également les programmes Rust multiplateformes et plus facile à gérer.
+En tant que conteneur d'exécution, WebAssembly rend également les programmes Rust multi-plateformes et plus facile à gérer.
 Il y a en effet beaucoup de synergie entre les deux technologies.
 
 Il a été inventé au départ en tant que machine virtuelle côté client pour exécuter des applications dans le navigateur.
 Mais comme Java et JavaScript avant lui, WebAssembly effectue maintenant la migration du côté client vers le [côté serveur](https://www.secondstate.io/articles/why-webassembly-server/).
 
-La plupart des développeurs Rust travaillent aujourd'hui sur des backends d'applications Web.
+La plupart des développeurs Rust travaillent aujourd'hui sur des backend d'applications Web.
 Pas étonnant que les crates comme [hyper](https://docs.rs/hyper/0.13.5/hyper/), [actix-web](https://github.com/actix/actix-web) et [Rocket](https://rocket.rs/) soient parmi les plus populaires auprès des développeurs Rust.
 
 Vous pouvez démarrer le développement d'applications Rust et WebAssembly à partir de "starter project" dans ce [repository GitHub](https://github.com/second-state/ssvm-nodejs-starter).
-Et il existe un [book](https://rustwasm.github.io/docs/book/what-is-webassembly.html) pour ceux qui préférent la théorie.
+Et il existe un [book](https://rustwasm.github.io/docs/book/what-is-webassembly.html) pour ceux qui préfèrent la théorie.

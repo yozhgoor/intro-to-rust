@@ -6,7 +6,7 @@ Pour les systèmes Unix comme Linux et MacOS, vous devez simplement ouvrir un te
 
 `$ curl https://sh.rustup.rs -sSf | sh`
 
-Si tout va bien, vous devriez voir ceci apparaitre dans votre terminal.
+Si tout va bien, vous devriez voir ceci apparaître dans votre terminal.
 
 `Rust is installed now. Great!`
 
@@ -23,7 +23,7 @@ Dans mon cas, j'ai gardé le nom du tutoriel de base et utilisé "todo-cli". J'a
 
 `$ cargo new todo-cli`
 
-Maitenant, naviguez vers le dossier fraichement créé et listez son contenu.
+Maintenant, naviguez vers le dossier fraîchement créé et listez son contenu.
 Vous devriez voir deux fichier à l'intérieur du dossier
 
 ![Schema du contenu du dossier todo-cli](../img/todo_cli.png)

@@ -65,9 +65,10 @@ Au delà des points techniques, Rust possède une communauté dynamique et accue
 Il existe plusieurs moyens officiels et non officiels permettant aux gens d'obtenir de l'aide, tels que:
 
 * le [forum des utilisateurs](https://users.rust-lang.org/),
-* Le [discord Rust](https://discord.com/invite/rust-lang) et le [community server](https://discord.com/invite/tcbkpyQ)
+* Le [Discord Rust](https://discord.com/invite/rust-lang) et le [community server](https://discord.com/invite/tcbkpyQ)
 * Le [Rust lang Slack](https://rust-slack.herokuapp.com/)
-* le [subreddit](https://www.reddit.com/r/rust/d) Rust
+* le [Subreddit](https://www.reddit.com/r/rust/d) Rust
+* le [Zulip RustLang](https://rust-lang.zulipchat.com/login/)
 * les questions et Réponses sur [StackOverflow](https://stackoverflow.com/questions/tagged/rust) et son [blog](https://stackoverflow.blog/?s=rust).
 * la communauté Rust est aussi très présente sur [Twitter](https://twitter.com/)
 
